@@ -1,0 +1,878 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-blue: #3498db; /* Azul */
+    --color-green: #2ecc71; /* Verde */
+    --color-blackgray: #5c5c5c; /* Gris oscuro */
+    --color-black: #000; /* Gris oscuro */
+    --color-white: #fff; /* Gris oscuro */
+    --color-orange-prim: #f3742f; /* Gris oscuro */
+    --color-pink-farmasi: #f95c6d;
+
+  }
+
+
+  .my-50{
+    margin: 50px 0;
+  }
+
+  .mto-50{
+    margin-top: 50px;
+  }
+
+  .mto-30{
+    margin-top: 30px;
+  }
+
+  .mto-20{
+    margin-top: 20px;
+  }
+
+  .mto-16{
+    margin-top: 16px;
+  }
+
+  .mto-10{
+    margin-top: 10px;
+  }
+  .mbo-50{
+    margin-bottom: 50px;
+  }
+
+  .mbo-30{
+    margin-bottom: 30px;
+  }
+
+  .mbo-20{
+    margin-bottom: 20px;
+  }
+
+  .mbo-16{
+    margin-bottom: 16px;
+  }
+  .mbo-10{
+    margin-bottom: 10px;
+  }
+
+  .txt-norm{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--color-blackgray);
+  }
+
+  .fw-300{
+    font-weight: 300;
+  }
+
+  .fw-400{
+    font-weight: 400;
+  }
+
+  .fw-500{
+    font-weight: 500;
+  }
+
+  .fw-600{
+    font-weight: 600;
+  }
+
+  .fw-800{
+    font-weight: 800;
+  }
+
+  .fsz-12{
+    font-size: 12px;
+  }
+
+  .fsz-14{
+    font-size: 14px;
+  }
+
+  .fsz-16{
+    font-size: 16px;
+  }
+
+  .fsz-18{
+    font-size: 18px;
+  }
+
+  .fsz-20{
+    font-size: 20px;
+  }
+
+  .fsz-22{
+    font-size: 22px;
+  }
+
+  .fsz-24{
+    font-size: 24px;
+  }
+
+  .clr-black{
+    color: var(--color-black);
+  }
+
+  .clr-blackgray{
+    color: var(--color-blackgray);
+  }
+
+  .clr-white{
+    color: var(--color-white);
+  }
+
+  .clr-pink{
+    color: var(--color-pink-farmasi);
+  }
+
+  .txt-centerr{
+    text-align: center;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.subtitles-page{
+    font-size: 30px;
+    font-weight: 600;
+    color: #5c5c5c;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.sect-tabs-ve{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.sect-tabs-ve2{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  display: block;
+}
+
+.main-cont-page{
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    background-color: ;
+}
+
+/* estilos de las pestañas */
+
+.tabs-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 16px 0;
+        overflow: hidden;
+        background-color: ;
+}
+
+.tab-btn {
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    padding: ;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    color: var(--color-black);
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+
+
+  }
+
+  .tab-btn:nth-child(1) {
+   margin-right: 16px;
+
+
+  }
+
+  .tab-btn .box-img-vender{
+    width: 33%;
+    max-width: 200px;
+    height: auto;
+    padding: 0;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tab-btn .box-img-vender img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+  }
+
+  .tab-btn .box-txt-vender{
+    width: 66%;
+    max-width: 400px;
+    height: auto;
+    padding: 16px;
+    margin: 0 0 0 0;
+  }
+
+
+  .tab-btn .box-txt-vender .btn-title{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+  }
+
+  .tab-btn .box-txt-vender .btn-info{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .tab-btn:hover {
+    background-color: var(--color-pink-farmasi);
+    color: var(--color-white);
+  }
+
+
+  .active-tabb {
+    background-color: var(--color-pink-farmasi);
+  }
+
+
+
+  .info-tabs-container{
+    width: 100%;
+    height: auto;
+    padding: 16px 0;
+    border-radius: 5px;
+    background-color: ;
+}
+
+.tab-content2 {
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+  
+  .active-content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: ;
+  }
+
+  .info-option{
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    padding: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  }
+
+  .box-img-opt{
+    width: 20%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-img-opt img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .box-txt-opt{
+    width: 80%;
+    height: auto;
+    padding: 16px;
+    margin: 0 0 0 0;
+  }
+
+
+  .box-txt-opt .btn-title2{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    color: var(--color-pink-farmasi);
+  }
+
+  .box-txt-opt .btn-info2{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: var(--color-blackgray);
+  }
+
+  .box-txt-opt .btn_btn{
+    color: #fff;
+    background-color: black;
+    margin: 10px 0 0 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+font-size: 14px;
+font-weight: 400;
+  }
+
+  .vyb-cont{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+  }
+
+  .vyb-4{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .box-vyb{
+    width: 25%;
+    height: auto;
+    padding: 0;
+    margin: 0 10px;
+  }
+
+  .box-vyb:first-child{
+    margin-left: 0;
+  }
+
+  .box-vyb:last-child{
+    margin-right: 0;
+  }
+
+
+
+  /* estilos de beneficios secundarios */
+
+  .ben-sec-cont{
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .ben-sec-boxes{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .ben-box{
+    width: 33%;
+    max-width: 360px;
+    height: auto;
+    padding: 16px;
+    margin: 0 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  }
+
+  .icon-contt{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0 10px 0 0;
+  }
+
+  .icons-ben-sec{
+    font-size: 32px;
+    color: var(--color-pink-farmasi);
+    margin: 0 auto;
+  }
+  
+
+  .vent-ben-cont{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: ;
+
+  }
+
+  .sldr-vyb-cont{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color:;
+    position: relative;
+    z-index: 0;
+
+  }
+
+  .sldr-test-cont{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: ;
+    position: relative;
+    z-index: 0;
+    display: block;
+
+  }
+
+  .sldr-test-cont2{
+  
+    display: none;
+  }
+
+
+  .regis-sec{
+    background-image: url('img/vender_natura_banner_2.webp');
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .regis-main-cont{
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
+
+  }
+
+  .reg-div2{
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+
+  /* estilos de parallax */
+
+  .parallax-container {
+    width: 100%;
+    position: relative;
+    background-image: url('../img/vender_natura_banner_2.webp'); /* Aquí va tu imagen de fondo */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto; /* Ajusta la altura según sea necesario */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .main-cont-par{
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    padding: 16px;
+    margin: 30px auto;
+    background-color: #fafafac5;
+    border-radius: 15px;
+  }
+
+  .cont-req-pas{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .cont-rp1{
+    width: 50%;
+    height: auto;
+    padding: 0;
+    margin: 0 16px 0 0;
+  }
+
+  .cont-rp2{
+    width: 50%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+  
+  .box-req-pas-i{
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    border: 1px gray solid;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.15);
+
+  }
+
+  .box-req-pas-i:nth-child(3){
+    margin: 16px 0;
+   
+  }
+
+  .box-req-pas{
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    border: 1px gray solid;
+    text-align: start;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.15);
+
+  }
+
+  .box-req-pas:nth-child(3){   
+    margin: 16px 0;
+  }
+
+  .req-ico{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0 10px 0 0;
+
+  }
+
+  .req-ico i{
+    color: var(--color-pink-farmasi);
+    font-size: 24px;
+
+  }
+
+  .req-txt{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+
+  .cont-contenido{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+
+  /* estilos del sliders de telefono */
+
+  .sect-sliders-tel{
+    display: none;
+  }
+
+  .cont-botones-opc{
+    width: 100%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+
+
+  .cont-botones-opc .tabbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 10px 0;
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .cont-botones-opc .tabbs .tabb {
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin: 0 16px;
+    white-space: nowrap;
+    background-color: #ffeeef85;
+  }
+
+  .cont-botones-opc .tabbs .active-tabb {
+    background-color: var(--color-pink-farmasi);
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .cont-contenido{
+    width: 100%;
+    height: auto;
+    margin: 20px 0 0 0;
+    padding: 16px;
+    background-color: ;
+    border-radius: 15px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+
+}
+
+.cont-contenido .tab-contentt {
+  margin: 0 0 0 0;
+  padding: 0;
+  display: none;
+}
+
+.cont-contenido .active-contentt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: ;
+}
+
+.title-slidersss{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+
+
+  @media(max-width: 700px) {
+    .info-option{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: start;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+    }
+
+
+    .box-img-opt{
+      width: 40%;
+      height: auto;
+      margin: 0 0 0 0;
+    }
+  
+    .box-img-opt img{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+  
+    }
+  
+    .box-txt-opt{
+      width: 60%;
+      height: auto;
+      margin: 0 0 0 0;
+      padding: 10px;
+    }
+  
+  
+    .box-txt-opt .btn-title2{
+      font-size: 22px;
+    
+    }
+  
+    .box-txt-opt .btn-info2{
+      font-size: 14px;
+     
+    }
+  
+    .box-txt-opt .btn_btn{
+      font-size: 15px;
+    }
+
+    /* esttilos de las opcuiones de vender/emprender */
+
+    .tabs-container{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: start;
+      padding: 16px 0;
+      overflow: hidden;
+}
+
+.tab-btn:nth-child(1) {
+  margin-right: 10px;
+ }
+
+.tab-btn {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.tab-btn:first-child {
+margin-bottom: 0;
+
+}
+
+.tab-btn .box-img-vender{
+ display: none;
+}
+
+.tab-btn .box-img-vender img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
+}
+
+.tab-btn .box-txt-vender{
+  width: 100%;
+  height: auto;
+  margin: 0 0 0 0;
+}
+
+.tab-btn .box-txt-vender .btn-title{
+  font-size: 22px;
+ 
+}
+
+.tab-btn .box-txt-vender .btn-info{
+  font-size: 14px;
+
+}
+
+
+.tab-btn:hover {
+  background-color: var(--color-pink-farmasi);
+  color: var(--color-white);
+}
+
+
+.active-tabb {
+  background-color: var(--color-pink-farmasi);
+}
+
+
+/* estilos de sliders 1 */
+
+.subtitles-page{
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.cont-req-pas{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.cont-rp1{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.cont-rp2{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0 0 0 0;
+}
+
+
+.sect-tabs-ve2{
+
+  display: none;
+}
+
+.sect-sliders-tel{
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background-color: ;
+}
+
+
+.sldr-test-cont{
+
+  display: none;
+
+}
+
+.sldr-test-cont2{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  background-color: ;
+  position: relative;
+  z-index: 0;
+  display: block;
+}
+    
+  }
