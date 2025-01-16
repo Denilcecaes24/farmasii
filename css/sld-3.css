@@ -3,7 +3,6 @@
     height: 100%;
     padding: 50px 15px 20px 15px;
     background-color: ;
-    overflow: hidden; 
   }
 
 .sldr-vyb-cont .swiper-slide {
@@ -144,7 +143,6 @@
     height: 100%;
     padding: 50px 15px 20px 15px;
     background-color: ;
-    overflow: hidden;
   }
 
 .sldr-test-cont .swiper-slide {
@@ -446,7 +444,6 @@
       height: 100%;
       padding: 50px 0 20px 0;
       background-color: ;
-      overflow: visible; 
     }
 
     .sldr-vyb-cont .swiper .swiper-button-prevvv {
@@ -468,7 +465,6 @@
   height: 100%;
   padding: 50px 0 20px 0;
   background-color: ;
-  overflow: visible;
 }
 
 .sldr-test-cont .swiper .swiper-button-prevvv {
@@ -493,7 +489,6 @@
       height: 100%;
       padding: 50px 0 20px 0;
       background-color: ;
-      overflow: visible; 
     }
 
     .sldr-vyb-cont .swiper .swiper-button-prevvv {
@@ -515,7 +510,6 @@
   height: 100%;
   padding: 50px 0 20px 0;
   background-color: ;
-  overflow: visible;
 }
 
 .sldr-test-cont .swiper .swiper-button-prevvv {
