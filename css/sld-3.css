@@ -15,7 +15,6 @@
     flex-direction: column;
     justify-content: start;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
-    overflow: hidden;
   }
 
   .sldr-vyb-cont .swiper-slide .box1-titles{

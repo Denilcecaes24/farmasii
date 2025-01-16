@@ -11,8 +11,25 @@
 
   }
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
 
-  .my-50{
+.subtitles-page{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 1.4;
+}
+
+
+.my-50{
     margin: 50px 0;
   }
 
@@ -128,35 +145,13 @@
     text-align: center;
   }
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;
-}
-
-
-.subtitles-page{
-    font-size: 30px;
-    font-weight: 600;
-    color: #5c5c5c;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    line-height: 1.4;
-}
+/*primer seccion */
 
 .sect-tabs-ve{
     width: 100%;
     height: auto;
     padding: 0;
-}
-
-.sect-tabs-ve2{
-  width: 100%;
-  height: auto;
-  padding: 0;
-  display: block;
+    background-color: ;
 }
 
 .main-cont-page{
@@ -168,22 +163,40 @@
     background-color: ;
 }
 
+
+
 /* estilos de las pestañas */
 
-.tabs-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 16px 0;
-        overflow: hidden;
-        background-color: ;
+.sect-main-btns{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: ;
+  }
+
+  h1{
+    margin: 0 0 16px 0;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+  }
+
+  .tabs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    background-color: ;
 }
 
 .tab-btn {
     width: 50%;
     max-width: 600px;
     height: auto;
-    padding: ;
+    padding: 0;
     cursor: pointer;
     transition: background-color 0.3s;
     border-radius: 5px;
@@ -228,8 +241,39 @@
     height: auto;
     padding: 16px;
     margin: 0 0 0 0;
+   
   }
 
+  .tab-btn .box-txt-vender .box-title-btn{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .tab-btn .box-txt-vender .part-icon-ve {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0 10px 0 0;
+    background-color: ;
+  }
+
+  .tab-btn .box-txt-vender .part-icon-ve i{
+    font-size: 36px;
+  }
+
+  .tab-btn .box-txt-vender .part-title-ve{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0 0 0 0;
+    background-color: ;
+
+  }
 
   .tab-btn .box-txt-vender .btn-title{
     font-size: 24px;
@@ -239,7 +283,8 @@
   }
 
   .tab-btn .box-txt-vender .btn-info{
-    font-size: 14px;
+    display: block;
+    font-size: 15px;
     font-weight: 400;
     padding: 0;
     margin: 0;
@@ -254,17 +299,34 @@
 
   .active-tabb {
     background-color: var(--color-pink-farmasi);
+    color: white;
   }
 
 
+  .active-tabb .box-title-btn .part-icon-ve i{
+    color: white;
+  }
+
+  /* estilos de info sec 2 */
 
   .info-tabs-container{
     width: 100%;
     height: auto;
-    padding: 16px 0;
+    padding: 0;
     border-radius: 5px;
     background-color: ;
 }
+
+.sect-tabs-ve2{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: block;
+  }
+
+  .sect-sliders-tel{
+    display: none;
+  }
 
 .tab-content2 {
     margin: 0;
@@ -282,8 +344,8 @@
   }
 
   .info-option{
-    width: 80%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1200px;
     height: auto;
     padding: 0;
     border-radius: 10px;
@@ -328,7 +390,7 @@
   }
 
   .box-txt-opt .btn-info2{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     padding: 0;
     margin: 0;
@@ -347,104 +409,137 @@ font-size: 14px;
 font-weight: 400;
   }
 
-  .vyb-cont{
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
-    padding: 0;
+
+  .sect-sliders-tel{
+    display: none;
   }
 
-  .vyb-4{
+   /* estilos del sliders de telefono */
+
+   .sect-sliders-tel{
+    display: none;
+  }
+
+  .cont-botones-opc{
     width: 100%;
-    max-width: 1200px;
-    height: auto;
     padding: 0;
+    margin: 20px auto 0 auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
+    justify-content: start;
+    align-items: center;
   }
 
-  .box-vyb{
-    width: 25%;
-    height: auto;
-    padding: 0;
-    margin: 0 10px;
+  .cont-botones-opc .div-desliz{
+    width: 0px;
+    margin: 0 10px 0 0;
   }
 
-  .box-vyb:first-child{
-    margin-left: 0;
-  }
-
-  .box-vyb:last-child{
-    margin-right: 0;
-  }
-
-
-
-  /* estilos de beneficios secundarios */
-
-  .ben-sec-cont{
+  .cont-botones-opc .div-desliz img{
     width: 100%;
-    height: auto;
-    padding: 0;
   }
 
-  .ben-sec-boxes{
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-  }
 
-  .ben-box{
-    width: 33%;
-    max-width: 360px;
-    height: auto;
-    padding: 16px;
-    margin: 0 16px;
+  .cont-botones-opc .tabbs {
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    border-radius: 10px;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+    padding: 10px 0;
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 100%;
   }
 
-  .icon-contt{
-    width: auto;
+  .cont-botones-opc .tabbs div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .cont-botones-opc .tabbs div .tabb {
+    width: 200px;
+    max-width: 100%;
     height: auto;
-    padding: 0;
-    margin: 0 10px 0 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    margin: 0 16px;
+    white-space: nowrap;
+    background-color: #faa1a785;
   }
 
-  .icons-ben-sec{
-    font-size: 32px;
-    color: var(--color-pink-farmasi);
+  .cont-botones-opc .notabb {
+    width: 10px;
+    height: auto;
+  
+  }
+
+  .cont-botones-opc .notabb img{
+    display: block;
+    width: 10px;
+    height: auto;
+    object-fit: cover;
+  
+  }
+
+  .cont-botones-opc .tabbs div .tabb .txt-tabs-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
     margin: 0 auto;
   }
-  
 
-  .vent-ben-cont{
+  .cont-botones-opc .tabbs div .active-tabb {
+    background-color: var(--color-pink-farmasi);
+  }
+
+  .cont-botones-opc .tabbs .active-tabb .txt-tabs-title{
+ 
+    color: #fff;
+  }
+
+  .cont-contenido{
+    width: 100%;
+    height: auto;
+    margin: 20px 0 0 0;
+    padding: 16px;
+    background-color: ;
+    border-radius: 15px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+
+}
+
+.cont-contenido .tab-contentt {
+  margin: 0 0 0 0;
+  padding: 16px 0;
+  display: none;
+}
+
+.cont-contenido .active-contentt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: ;
+}
+
+.title-slidersss{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin: 0 10px 10px 10px;
+}
+
+.vent-ben-cont{
     width: 100%;
     height: auto;
     padding: 0;
     background-color: ;
-
-  }
-
-  .sldr-vyb-cont{
-    width: 100%;
-    height: auto;
-    padding: 0;
-    background-color:;
-    position: relative;
-    z-index: 0;
 
   }
 
@@ -465,38 +560,7 @@ font-weight: 400;
   }
 
 
-  .regis-sec{
-    background-image: url('img/vender_natura_banner_2.webp');
-    min-height: 50vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
-  .regis-main-cont{
-    width: 90%;
-    max-width: 1200px;
-    height: auto;
-    padding: 0;
-    margin: 0;
-
-
-  }
-
-  .reg-div2{
-    width: 90%;
-    max-width: 1200px;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
-  }
-
+  
   /* estilos de parallax */
 
   .parallax-container {
@@ -612,267 +676,220 @@ font-weight: 400;
     margin: 0 auto;
   }
 
-
-  /* estilos del sliders de telefono */
-
-  .sect-sliders-tel{
-    display: none;
-  }
-
-  .cont-botones-opc{
-    width: 100%;
-    padding: 0;
-    margin: 20px auto 0 auto;
-  }
-
-
-  .cont-botones-opc .tabbs {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    padding: 10px 0;
-    margin: 0 auto;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-
-  .cont-botones-opc .tabbs .tabb {
-    width: auto;
-    max-width: 300px;
-    height: auto;
-    text-align: center;
-    font-size: 16px;
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    border-radius: 5px;
-    margin: 0 16px;
-    white-space: nowrap;
-    background-color: #ffeeef85;
-  }
-
-  .cont-botones-opc .tabbs .active-tabb {
-    background-color: var(--color-pink-farmasi);
-    font-weight: bold;
-    color: #fff;
-  }
-
-  .cont-contenido{
-    width: 100%;
-    height: auto;
-    margin: 20px 0 0 0;
-    padding: 16px;
-    background-color: ;
-    border-radius: 15px;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
-
-}
-
-.cont-contenido .tab-contentt {
-  margin: 0 0 0 0;
-  padding: 0;
-  display: none;
-}
-
-.cont-contenido .active-contentt {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  background-color: ;
-}
-
-.title-slidersss{
-  font-size: 18px;
-  font-weight: 600;
-  color: black;
-  text-align: start;
-  margin-bottom: 10px;
-}
-
-
-
   @media(max-width: 700px) {
-    .info-option{
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: start;
-      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+
+    .my-50{
+      margin: 30px 0;
     }
 
+    .mbo-50{
+      margin-bottom: 30px;
+    }
 
-    .box-img-opt{
-      width: 40%;
-      height: auto;
-      margin: 0 0 0 0;
+    .mto-50{
+      margin-top: 30px;
     }
-  
-    .box-img-opt img{
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-  
-    }
-  
-    .box-txt-opt{
-      width: 60%;
-      height: auto;
-      margin: 0 0 0 0;
-      padding: 10px;
-    }
-  
-  
-    .box-txt-opt .btn-title2{
-      font-size: 22px;
+
+  h1{
     
-    }
-  
-    .box-txt-opt .btn-info2{
-      font-size: 14px;
-     
-    }
-  
-    .box-txt-opt .btn_btn{
-      font-size: 15px;
+      font-size: 28px;
+   
     }
 
-    /* esttilos de las opcuiones de vender/emprender */
+    .subtitles-page{
+        font-size: 24px;
+        line-height: 1.2;
+      }
+
+    /* esttilos de las opciones de vender/emprender */
 
     .tabs-container{
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: start;
-      padding: 16px 0;
-      overflow: hidden;
-}
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        padding: 16px 0;
+  }
+  
+  .tab-btn:nth-child(1) {
+    margin-right: 10px;
+   }
+  
+  .tab-btn {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  
+  .tab-btn:first-child {
+  margin-bottom: 0;
+  
+  }
+  
+  .tab-btn .box-img-vender{
+   display: none;
+  }
+  
+  .tab-btn .box-img-vender img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  
+  }
+  
+  .tab-btn .box-txt-vender{
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 0;
+  }
+  
+  .tab-btn .box-txt-vender .btn-title{
+    font-size: 16px;
+   
+  }
+  
+  .tab-btn .box-txt-vender .btn-info{
+    display: none;
+  }
+  
+  
+  .tab-btn:hover {
+    background-color: var(--color-pink-farmasi);
+    color: var(--color-white);
+  }
+  
+  
+  .active-tabb {
+    background-color: var(--color-pink-farmasi);
+  }
 
-.tab-btn:nth-child(1) {
-  margin-right: 10px;
- }
+  .cont-botones-opc .tabbs div .active-tabb {
+    background-color: var(--color-pink-farmasi);
+  }
 
-.tab-btn {
-  width: 50%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-
-}
-
-.tab-btn:first-child {
-margin-bottom: 0;
-
-}
-
-.tab-btn .box-img-vender{
- display: none;
-}
-
-.tab-btn .box-img-vender img{
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-
-}
-
-.tab-btn .box-txt-vender{
-  width: 100%;
-  height: auto;
-  margin: 0 0 0 0;
-}
-
-.tab-btn .box-txt-vender .btn-title{
-  font-size: 22px;
+  .cont-botones-opc .tabbs .active-tabb .txt-tabs-title{
  
-}
-
-.tab-btn .box-txt-vender .btn-info{
-  font-size: 14px;
-
-}
-
-
-.tab-btn:hover {
-  background-color: var(--color-pink-farmasi);
-  color: var(--color-white);
-}
-
-
-.active-tabb {
-  background-color: var(--color-pink-farmasi);
-}
+    color: #fff;
+  }
+  
+  /* estilos de seccion 2 */
+  .info-option{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  }
 
 
-/* estilos de sliders 1 */
+  .box-img-opt{
+    width: 40%;
+    height: auto;
+    margin: 0 0 0 0;
+  }
 
-.subtitles-page{
-  font-size: 24px;
-  line-height: 1.2;
-}
+  .box-img-opt img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 
-.cont-req-pas{
-  width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-}
+  }
 
-.cont-rp1{
-  width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0 0 16px 0;
-}
-
-.cont-rp2{
-  width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0 0 0 0;
-}
+  .box-txt-opt{
+    width: 60%;
+    height: auto;
+    margin: 0 0 0 0;
+    padding: 10px;
+  }
 
 
-.sect-tabs-ve2{
+  .box-txt-opt .btn-title2{
+    font-size: 22px;
+  
+  }
 
-  display: none;
-}
+  .box-txt-opt .btn-info2{
+    font-size: 14px;
+   
+  }
 
-.sect-sliders-tel{
-  display: block;
-  width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0;
-  background-color: ;
-}
+  .box-txt-opt .btn_btn{
+    font-size: 15px;
+  }
 
 
-.sldr-test-cont{
 
-  display: none;
+  /* slider grandes */
 
-}
+  .sect-tabs-ve2{
 
-.sldr-test-cont2{
-  width: 100%;
-  height: auto;
-  padding: 0;
-  background-color: ;
-  position: relative;
-  z-index: 0;
-  display: block;
-}
-    
+    display: none;
+  }
+  
+  .sect-sliders-tel{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: ;
+  }
+
+  .sldr-test-cont{
+
+    display: none;
+  
+  }
+  
+  .sldr-test-cont2{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: ;
+    position: relative;
+    z-index: 0;
+    display: block;
+  }
+
+
+
+
+  .subtitles-page{
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  
+  .cont-req-pas{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  
+  .cont-rp1{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 16px 0;
+  }
+  
+  .cont-rp2{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+  
   }

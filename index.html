@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +8,9 @@
     <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="css/main-styles.css">
     <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="css/header-styles.css">
     <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="css/swp.css">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="css/tel-spw.css">
     <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="css/sld-3.css">
     <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="css/footer-styles.css">
-    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="css/tel-swp.css">
-
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -125,18 +124,76 @@
     <div class="overlay"></div>
 
     <main>
-        <section class="sect-tabs-ve">
+
+        <section class="sect-tabs-ve my-50">
+            <div class="main-cont-page">
+                <div class="sect-main-btns">
+
+                    <h1>2 formas de ganar con FARMASI</h1>
+
+                    <div class="tabs-container">
+                        <div class="tab-btn active-tabb" onclick="showContent(1)">
+                           <div class="box-img-vender">
+                            <img src="img/bolsas.jpg" alt="">
+                           </div>
+                           <div class="box-txt-vender">
+    
+                            <div class="box-title-btn">
+                                <div class="part-icon-ve">
+                                    <i class="bi bi-coin"></i>
+                                </div>
+        
+                               <div class="part-title-ve">
+                                <h2 class="btn-title">Quiero vender</h2>
+                               </div>
+                            </div>
+            
+                            <p class="btn-info">
+                                Regístrate como Influencer Farmasi en México y genera ingresos de la venta de productos, gana regalos, aprovecha descuentos exclusivos y mucho más…
+                            </p>
+                           </div>
+                        </div>
+    
+                        <div class="tab-btn" onclick="showContent(2)">
+                            <div class="box-img-vender">
+                             <img src="img/bolsas.jpg" alt="">
+                            </div>
+                            <div class="box-txt-vender">
+                                <div class="box-title-btn">
+                                    <div class="part-icon-ve">
+                                        <i class="bi bi-rocket-takeoff"></i>
+                                    </div>
+            
+                                   <div class="part-title-ve">
+                                        <h2 class="btn-title">Quiero emprender</h2>
+                                   </div>
+                                </div>
+                
+                             <p class="btn-info">                     
+                                 Regístrate como Influencer Farmasi en México y genera ingresos de la venta de productos, gana regalos, aprovecha descuentos exclusivos y mucho más…
+                             </p>
+    
+                            </div>
+                         </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sect-tabs-ve mbo-50" >
             <div class="main-cont-page">
 
-                <div class="info-tabs-container my-50">
+                <div class="info-tabs-container mbo-50" >
                     <div class="tab-content2 active-content2" id="content1-top">
                         <div class="info-option">
                             <div class="box-img-opt">
                                 <img src="img/bolsas.jpg" alt="">
                             </div>
-
+        
                             <div class="box-txt-opt">
-                                <h2 class="btn-title2">Vender</h2>
+                                <h2 class="btn-title2"> Quiero vender</h2>
                                 <p class="btn-info2">
                                     Regístrate como Influencer Farmasi en México y genera ingresos de la venta de productos, gana regalos, aprovecha descuentos exclusivos y mucho más…
                                 </p>
@@ -144,15 +201,15 @@
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="tab-content2" id="content1-bottom">
                         <div class="info-option">
                             <div class="box-img-opt">
                                 <img src="img/bolsas.jpg" alt="">
                             </div>
-
+        
                             <div class="box-txt-opt">
-                                <h2 class="btn-title2">Emprender</h2>
+                                <h2 class="btn-title2">Quiero emprender</h2>
                                 <p class="btn-info2">
                                     Regístrate, conoce nuestro modelo de negocio y pertenece a nuestra comunidad de líderes construyendo negocios en red.
                                 </p>
@@ -162,301 +219,329 @@
                     </div>
                 </div>
 
-                <div class="tabs-container my-50">
-                    <div class="tab-btn active-tabb" onclick="showContent(1)">
-                       <div class="box-img-vender">
-                        <img src="img/bolsas.jpg" alt="">
-                       </div>
-                       <div class="box-txt-vender">
-                        <h2 class="btn-title">Vender</h2>
-                        <p class="btn-info">
-                            Regístrate como Influencer Farmasi en México y genera ingresos de la venta de productos, gana regalos, aprovecha descuentos exclusivos y mucho más…
-                        </p>
-                       </div>
-                    </div>
 
-                    <div class="tab-btn" onclick="showContent(2)">
-                        <div class="box-img-vender">
-                         <img src="img/bolsas.jpg" alt="">
-                        </div>
-                        <div class="box-txt-vender">
-                         <h2 class="btn-title">Emprender</h2>
-                         <p class="btn-info">
-                             Regístrate como Influencer Farmasi en México y genera ingresos de la venta de productos, gana regalos, aprovecha descuentos exclusivos y mucho más…
-                         </p>
-                        </div>
-                     </div>
-                </div>
-
-                <div class="info-tabs-container">
+                <div class="info-tabs-container mbo-50">
                     <div class="tab-content2 active-content2" id="content2-top">
-                        <!--div class="info-option">
-                            <div class="box-img-opt">
-                                <img src="img/port-natura-ciclo18.png" alt="">
-                            </div>
+                    
+                        <div class="sect-tabs-ve2">
+                            <h2 class="subtitles-page mbo-16">Ganancias de influencers FARMASI</h2>
 
-                            <div class="box-txt-opt">
-                                <h2 class="btn-title2">Vender</h2>
-                                <p class="btn-info2">
-                                    Regístrate como Influencer Farmasi en México y genera ingresos de la venta de productos, gana regalos, aprovecha descuentos exclusivos y mucho más…
-                                </p>
-                                <a class="btn_btn" href="">Registro</a>
-                            </div>
-                        </div-->
-
-                        <div class="sect-tabs-ve2 mbo-50">
-                            <h2 class="subtitles-page">Ganancias de influencers FARMASI</h2>
-
-                            <div class="main-cont-page">
-                                <div class="contenedor-sliders">
-                                    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
-                                        <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="bg-gen">
-                                                <div class="bg-gen-cont1">
-                                                <h3 class="title-sliderss">
-                                                    GANA $4,715 POR INGRESAR PEDIDO TUS PRIMEROS 4 MESES
-                                                </h3>
-                                                </div>
-                                        
+                            <div class="contenedor-sliders">
+                                <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                                    <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="bg-gen">
+                                            <div class="bg-gen-cont1">
+                                            <h3 class="title-sliderss">
+                                                GANA $4,715 POR INGRESAR PEDIDO TUS PRIMEROS 4 MESES
+                                            </h3>
                                             </div>
-                
-                                            <div class="bg-slds">
-                                                <div class="swiper mySwiper3">
-                                                    <div class="swiper-wrapper">
-                                                      <div class="swiper-slide">
-                                                        <div class="ss-div">
-                                                            <p class="txt-sldrs-m">75 puntos minimos</p>
-                                                            <p class="txt-sldrs-m">1er Pedido</p>
-                                                            <p class="txt-sldrs-m">Mes 1</p>
-
-                                                        </div>
-                                                        <!--p class="txt-sldrs-nrm">Ingresa 75 puntos y llevate:</p-->
-                                                        <img src="img/pr1.png" alt="">
-                                                        <p class="txt-vm">Valor Mercado:</p>
-                                                        <p class="txt-prec" style="background-color: green;">$ 360</p>
-                                                    </div>
-
-                                                    <div class="swiper-slide">
-                                                            <div class="ss-div">
-                                                                <p class="txt-sldrs-m">75 puntos minimos</p>
-                                                                <p class="txt-sldrs-m">2do Pedido</p>
-                                                                <p class="txt-sldrs-m">Mes 2</p>
-
-                                                            </div>
-                                                    
-                                                        <img src="img/pr2.png" alt="">
-                                                        <p class="txt-vm">Valor Mercado:</p>
-                                                        <p class="txt-prec" style="background-color: green;">$ 575</p>
-                                                    </div>
-
-                                                    <div class="swiper-slide">
-                                                        <div class="ss-div">
-                                                            <p class="txt-sldrs-m">75 puntos minimos</p>
-                                                            <p class="txt-sldrs-m">3er Pedido</p>
-                                                            <p class="txt-sldrs-m">Mes 3</p>
-                                                        </div>
-                                                       
-                                                        <img src="img/pr3.png" alt="">
-                                                        <p class="txt-vm">Valor Mercado:</p>
-                                                        <p class="txt-prec" style="background-color: green;">$ 1260</p>
-                                                    </div>
-
-                                                      <div class="swiper-slide">
-                                                        <div class="ss-div">
-                                                            <p class="txt-sldrs-m" style="background-color: gray;">80 puntos minimos</p>
-                                                            <p class="txt-sldrs-m" style="background-color: gray;">4to Pedido</p>
-                                                            <p class="txt-sldrs-m">Mes 4</p>
-
-                                                        </div>
-                                                        <!--div class="ss-div2">
-                                                            <p class="txt-sldrs-m" style="background-color: gray;">Mes 4</p>
-                                                        </div-->
-                                                        <img src="img/pr4.png" alt="">
-                                                        <p class="txt-vm">Valor Mercado:</p>
-                                                        <p class="txt-prec" style="background-color: green;">$ 1980</p>
-                                                      </div>
-                                                    </div>
-                                                    <div class="swiper-button-nextt"><i class="bi bi-chevron-right"></i></div>
-                                                    <div class="swiper-button-prevv"><i class="bi bi-chevron-left"></i></div>
-                                                    <div class="swiper-pagination"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="bg-gen">
-                                                <div class="bg-gen-cont1">
-                                                <h3 class="title-sliderss">Nuestras Marcas</h3>
-                                                </div>
-                                            
-                                            </div>
-                
-                                            <div class="bg-slds">
-                                                <div class="swiper mySwiper4">
-                                                    <div class="swiper-wrapper">
-                                                      <div class="swiper-slide">
-                                                        <div class="ss-div-gr">
-                                                            <p class="txt-marca-sld" style="background-color: gray;">DR. C. TUNA</p>
-                                                            <P class="txt-desc-sld" style="background-color: gray;">50% de descuento</P>
-                                                        </div>
-                                                        <div class="ss-div-img-gr">
-                                                            <img src="img/marca11.jpg" alt="">
-                                                        </div>
-                                                        <div class="ss-div-gr-info">
-                                                            Area de texto:
-                                                            <br>
-                                                            <br>
-                                                        </div>
-                                                      </div>
-                                                      <div class="swiper-slide">
-                                                        <div class="ss-div-gr">
-                                                            <p class="txt-marca-sld" style="background-color: gray;">FARMASI</p>
-                                                            <P class="txt-desc-sld" style="background-color: gray;">50% de descuento</P>
-                                                        </div>
-                                                        <div class="ss-div-img-gr">
-                                                            <img src="img/marca22.jpg" alt="">
-                                                        </div>
-                                                        <div class="ss-div-gr-info">
-                                                            Area de texto:
-                                                            <br>
-                                                            <br>
-                                                        </div>
-                                                      </div>
-
-                                                      <div class="swiper-slide">
-                                                        <div class="ss-div-gr">
-                                                            <p class="txt-marca-sld" style="background-color: gray;">NUTRIPLUS</p>
-                                                            <P class="txt-desc-sld" style="background-color: gray;">50% de descuento</P>
-                                                        </div>
-                                                        <div class="ss-div-img-gr">
-                                                            <img src="img/marca33.jpg" alt="">
-                                                        </div>
-                                                        <div class="ss-div-gr-info">
-                                                            Area de texto:
-                                                            <br>
-                                                            <br>
-                                                        </div>
-                                                      </div>
-
-                                        
-                                                    </div>
-                                                    <div class="swiper-button-nextt"><i class="bi bi-chevron-right"></i></div>
-                                                    <div class="swiper-button-prevv"><i class="bi bi-chevron-left"></i></div>
-                                                    <div class="swiper-pagination"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="bg-gen">
-                                                <div class="bg-gen-cont1">
-                                                    <h3 class="title-sliderss">
-                                                        KITS DE INICIO GRATIS
-                                                    </h3>
-                                                    </div>
-                                            </div>
-                
-                                            <div class="bg-slds">
-                                                <div class="swiper mySwiper3">
-                                                    <div class="swiper-wrapper">
-                                                      <div class="swiper-slide">
-                                                       
-                                                        <img src="img/kit1.jpg" alt="">
-                                                        <p class="txt-vm">Precio de catalogo:</p>
-                                                        <p class="txt-prec" style="background-color: green;">$ 4,639</p>
-                                                      </div>
-
-                                                      <div class="swiper-slide">
-                                                       
-                                                        <img src="img/kit2.jpg" alt="">
-                                                        <p class="txt-vm">Precio de catalogo:</p>
-                                                        <p class="txt-prec" style="background-color: green;">$ 4,424</p>
-                                                      </div>
-
-                                                      <div class="swiper-slide">
-                                                      
-                                                        <img src="img/kit3.jpg" alt="">
-                                                        <p class="txt-vm">Precio de catalogo:</p>
-                                                        <p class="txt-prec" style="background-color: green;">$ 4,664</p>
-                                                      </div>
-                                                      
-                                                    </div>
-                                                    <div class="swiper-button-nextt"><i class="bi bi-chevron-right"></i></div>
-                                                    <div class="swiper-button-prevv"><i class="bi bi-chevron-left"></i></div>
-                                                    <div class="swiper-pagination"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="swiper-slide">
-                                            <div class="bg-gen">
-                                                <div class="bg-gen-cont1">
-                                                    <h3 class="title-sliderss">
-                                                        BONO DE EQUIPO
-                                                    </h3>
-                                                    </div>
-                                        
-                                            </div>
-                
-                                            <div class="bg-slds">
-                                                <div class="swiper mySwiper3">
-                                                    <div class="swiper-wrapper">
-                                                      <div class="swiper-slide">
-                                                        <div class="div-bono1">
-                                                            <img src="img/bono-equipo.jpg" alt="">
-                                                            <p style="text-align: center;"><a href="#">Registrarte</a></p>
-                                                        </div>
-
-                                                      </div>
-                                                      <div class="swiper-slide">
-                                                        <div class="div-bono1">
-                                                            <p class="txt-bono">Area de texto...... <br> <br> <br> <br> <br> <br> <br></p>
-                                                        </div>
-                                                      </div>
-                                                      <div class="swiper-slide">
-                                                        <div class="div-bono1">
-                                                            <img src="img/tablaa.jpg" alt="">
-                                                        </div>
-                                                      </div>
-                                                     
-                                                    </div>
-                                                    <div class="swiper-button-nextt"><i class="bi bi-chevron-right"></i></div>
-                                                    <div class="swiper-button-prevv"><i class="bi bi-chevron-left"></i></div>
-                                                    <div class="swiper-pagination"></div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     
                                         </div>
-                                        <!--div class="swiper-button-next"></div-->
-                                        <!--div class="swiper-button-prev"></div-->
+            
+                                        <div class="bg-slds">
+                                            <div class="swiper mySwiper3">
+                                                <div class="swiper-wrapper">
+                                                  <div class="swiper-slide">
+                                                    <div class="ss-div">
+                                                        <p class="txt-sldrs-m">75 puntos minimos</p>
+                                                        <div class="div-tags2">
+                                                            <p class="txt-sldrs-m">1er Pedido</p>
+                                                            <p class="txt-sldrs-m">Mes 1</p>
+                                                        </div>
+                                                      
+
+                                                    </div>
+                                                    <!--p class="txt-sldrs-nrm">Ingresa 75 puntos y llevate:</p-->
+                                                    <img src="img/pr1.png" alt="">
+                                                    <p class="txt-vm">Valor Mercado:</p>
+                                                    <p class="txt-prec" style="background-color: green;">$ 360</p>
+                                                </div>
+
+                                                <div class="swiper-slide">
+                                                        <div class="ss-div">
+                                                            <p class="txt-sldrs-m">75 puntos minimos</p>
+                                                            <div class="div-tags2">
+                                                            <p class="txt-sldrs-m">2do Pedido</p>
+                                                            <p class="txt-sldrs-m">Mes 2</p>
+                                                            </div>
+                                                        </div>
+                                                
+                                                    <img src="img/pr2.png" alt="">
+                                                    <p class="txt-vm">Valor Mercado:</p>
+                                                    <p class="txt-prec" style="background-color: green;">$ 575</p>
+                                                </div>
+
+                                                <div class="swiper-slide">
+                                                    <div class="ss-div">
+                                                        <p class="txt-sldrs-m">75 puntos minimos</p>
+                                                        <div class="div-tags2">
+                                                        <p class="txt-sldrs-m">3er Pedido</p>
+                                                        <p class="txt-sldrs-m">Mes 3</p>
+                                                        </div>
+                                                    </div>
+                                                   
+                                                    <img src="img/pr3.png" alt="">
+                                                    <p class="txt-vm">Valor Mercado:</p>
+                                                    <p class="txt-prec" style="background-color: green;">$ 1260</p>
+                                                </div>
+
+                                                  <div class="swiper-slide">
+                                                    <div class="ss-div">
+                                                        <p class="txt-sldrs-m" style="background-color: gray;">80 puntos minimos</p>
+                                                        <div class="div-tags2">
+                                                        <p class="txt-sldrs-m" style="background-color: gray;">4to Pedido</p>
+                                                        <p class="txt-sldrs-m">Mes 4</p>
+                                                        </div>
+
+                                                    </div>
+                                                    <!--div class="ss-div2">
+                                                        <p class="txt-sldrs-m" style="background-color: gray;">Mes 4</p>
+                                                    </div-->
+                                                    <img src="img/pr4.png" alt="">
+                                                    <p class="txt-vm">Valor Mercado:</p>
+                                                    <p class="txt-prec" style="background-color: green;">$ 1980</p>
+                                                  </div>
+                                                </div>
+                                                <div class="swiper-button-nextt"><i class="bi bi-chevron-right"></i></div>
+                                                <div class="swiper-button-prevv"><i class="bi bi-chevron-left"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="bg-gen">
+                                            <div class="bg-gen-cont1">
+                                            <h3 class="title-sliderss">NUESTRAS MARCAS</h3>
+                                            </div>
+                                        
+                                        </div>
+            
+                                        <div class="bg-slds">
+                                            <div class="swiper mySwiper4">
+                                                <div class="swiper-wrapper">
+                                                  <div class="swiper-slide">
+                                                    <div class="ss-div-gr">
+                                                        <p class="txt-marca-sld">DR. C. TUNA</p>
+                                                        <P class="txt-desc-sld">50% de descuento</P>
+                                                    </div>
+                                                    <div class="ss-div-img-gr">
+                                                        <img src="img/marca11.jpg" alt="">
+                                                    </div>
+                                                    <div class="ss-div-gr-info">
+                                                        <p class="info-sl2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptate quia, doloremque necessitatibus quidem tempore iusto provident laboriosam, ab, cum nisi dignissimos assumenda aliquam? Provident beatae odio nostrum commodi tenetur, fugit laudantium doloremque, inventore aut asperiores cumque rerum dicta alias fuga vero? Rerum necessitatibus a laborum maxime hic saepe quae?</p>
+                                                        <p class="title-tag-sl2">Cada kit Incluye:</p>
+                                                        <div class="div-products-sl2">
+                                                            <p>Paquete 1</p>
+                                                            <p>Paquete 2</p>
+                                                            <p>Paquete 3</p>
+                                                            <p>Paquete 4</p>
+                                                            <p>Paquete 5</p>
+                                                            <p>Paquete 6</p>
+
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="swiper-slide">
+                                                    <div class="ss-div-gr">
+                                                        <p class="txt-marca-sld">FARMASI</p>
+                                                        <P class="txt-desc-sld" >50% de descuento</P>
+                                                    </div>
+                                                    <div class="ss-div-img-gr">
+                                                        <img src="img/marca22.jpg" alt="">
+                                                    </div>
+                                                    <div class="ss-div-gr-info">
+                                                        <p class="info-sl2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptate quia, doloremque necessitatibus quidem tempore iusto provident laboriosam, ab, cum nisi dignissimos assumenda aliquam? Provident beatae odio nostrum commodi tenetur, fugit laudantium doloremque, inventore aut asperiores cumque rerum dicta alias fuga vero? Rerum necessitatibus a laborum maxime hic saepe quae?</p>
+                                                        <p class="title-tag-sl2">Cada Kit incluye:</p>
+                                                        <div class="div-products-sl2">
+                                                            <p>Paquete 1</p>
+                                                            <p>Paquete 2</p>
+                                                            <p>Paquete 3</p>
+                                                            <p>Paquete 4</p>
+                                                            <p>Paquete 5</p>
+                                                            <p>Paquete 6</p>
+
+                                                        </div>
+                                                    </div>
+                                                  </div>
+
+                                                  <div class="swiper-slide">
+                                                    <div class="ss-div-gr">
+                                                        <p class="txt-marca-sld" >NUTRIPLUS</p>
+                                                        <P class="txt-desc-sld">50% de descuento</P>
+                                                    </div>
+                                                    <div class="ss-div-img-gr">
+                                                        <img src="img/marca33.jpg" alt="">
+                                                    </div>
+                                                    <div class="ss-div-gr-info">
+                                                        <p class="info-sl2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptate quia, doloremque necessitatibus quidem tempore iusto provident laboriosam, ab, cum nisi dignissimos assumenda aliquam? Provident beatae odio nostrum commodi tenetur, fugit laudantium doloremque, inventore aut asperiores cumque rerum dicta alias fuga vero? Rerum necessitatibus a laborum maxime hic saepe quae?</p>
+                                                        <p class="title-tag-sl2">Cada Kit incluye:</p>
+                                                        <div class="div-products-sl2">
+                                                            <p>Paquete 1</p>
+                                                            <p>Paquete 2</p>
+                                                            <p>Paquete 3</p>
+                                                            <p>Paquete 4</p>
+                                                            <p>Paquete 5</p>
+                                                            <p>Paquete 6</p>
+
+                                                        </div>
+                                                    </div>
+                                                  </div>
+
+                                    
+                                                </div>
+                                                <div class="swiper-button-nextt"><i class="bi bi-chevron-right"></i></div>
+                                                <div class="swiper-button-prevv"><i class="bi bi-chevron-left"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="bg-gen">
+                                            <div class="bg-gen-cont1">
+                                                <h3 class="title-sliderss">
+                                                    KITS DE INICIO GRATIS
+                                                </h3>
+                                                </div>
+                                        </div>
+            
+                                        <div class="bg-slds">
+                                            <div class="swiper mySwiper3">
+                                                <div class="swiper-wrapper">
+                                                  <div class="swiper-slide">
+                                                   
+                                                    <img src="img/kit1.jpg" alt="">
+
+                                                    <div class="div-3colum">
+                                                        <div class="col-prec">
+                                                            <p class="txt-vm">Precio de catalogo:</p>
+                                                            <p class="txt-prec">$ 4,639</p>
+                                                        </div>
+                                                        <div class="col-prec">
+                                                            <p class="txt-vm">Descuento:</p>
+                                                            <p class="txt-prec">$ 4,000</p>
+                                                        </div>
+                                                        <div class="col-prec">
+                                                            <p class="txt-vm">Ganancia:</p>
+                                                            <p class="txt-prec">$ 400</p>
+                                                        </div>
+                                                    </div>
+                                                   
+                                                  </div>
+
+                                                  <div class="swiper-slide">
+                                                   
+                                                    <img src="img/kit2.jpg" alt="">
+                                                   
+                                                    <div class="div-3colum">
+                                                        <div class="col-prec">
+                                                            <p class="txt-vm">Precio de catalogo:</p>
+                                                            <p class="txt-prec">$ 4,639</p>
+                                                        </div>
+                                                        <div class="col-prec">
+                                                            <p class="txt-vm">Descuento:</p>
+                                                            <p class="txt-prec">$ 4,000</p>
+                                                        </div>
+                                                        <div class="col-prec">
+                                                            <p class="txt-vm">Ganancia:</p>
+                                                            <p class="txt-prec">$ 400</p>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+
+                                                  <div class="swiper-slide">
+                                                  
+                                                    <img src="img/kit3.jpg" alt="">
+                                                  
+                                                    <div class="div-3colum">
+                                                        <div class="col-prec">
+                                                            <p class="txt-vm">Precio de catalogo:</p>
+                                                            <p class="txt-prec">$ 4,639</p>
+                                                        </div>
+                                                        <div class="col-prec">
+                                                            <p class="txt-vm">Descuento:</p>
+                                                            <p class="txt-prec">$ 4,000</p>
+                                                        </div>
+                                                        <div class="col-prec">
+                                                            <p class="txt-vm">Ganancia:</p>
+                                                            <p class="txt-prec">$ 400</p>
+                                                        </div>
+                                                    </div>
+
+                                                  </div>
+                                                  
+                                                </div>
+                                                <div class="swiper-button-nextt"><i class="bi bi-chevron-right"></i></div>
+                                                <div class="swiper-button-prevv"><i class="bi bi-chevron-left"></i></div>
+                                            </div>
+                                        </div>
                                     </div>
 
-                                    <div thumbsSlider="" class="swiperben mySwiper">
-                                        <div class="swiper-wrapper">
-                
-                                                <div class="swiper-slide">
-                                                    <p>Ganancias por mes</p>
-                                                 </div>
-                                                 <div class="swiper-slide">
-                                                     <p>Marcas</p>
-                                                 </div>
-                                                 <div class="swiper-slide">
-                                                     <p>Kits de inicio</p>
-                                                 </div>
-                                                 <div class="swiper-slide">
-                                                     <p>Bono de equipo</p>
-                                                 </div>
+                                    <!--div class="swiper-slide">
+                                        <div class="bg-gen">
+                                            <div class="bg-gen-cont1">
+                                                <h3 class="title-sliderss">
+                                                    BONO DE EQUIPO
+                                                </h3>
+                                                </div>
+                                    
                                         </div>
-                
+            
+                                        <div class="bg-slds">
+                                            <div class="swiper mySwiper3">
+                                                <div class="swiper-wrapper">
+                                                  <div class="swiper-slide">
+                                                    <div class="div-bono1">
+                                                        <img src="img/bono-equipo.jpg" alt="">
+                                                        <p style="text-align: center;"><a href="#">Registrarte</a></p>
+                                                    </div>
+
+                                                  </div>
+                                                  <div class="swiper-slide">
+                                                    <div class="div-bono1">
+                                                        <p class="txt-bono">Area de texto...... <br> <br> <br> <br> <br> <br> <br></p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="swiper-slide">
+                                                    <div class="div-bono1">
+                                                        <img src="img/tablaa.jpg" alt="">
+                                                    </div>
+                                                  </div>
+                                                 
+                                                </div>
+                                                <div class="swiper-button-nextt"><i class="bi bi-chevron-right"></i></div>
+                                                <div class="swiper-button-prevv"><i class="bi bi-chevron-left"></i></div>
+                                            </div>
+                                        </div>
+                                    </div-->
+                                
                                     </div>
+                                    <!--div class="swiper-button-next"></div-->
+                                    <!--div class="swiper-button-prev"></div-->
+                                </div>
+
+                                <div thumbsSlider="" class="swiperben mySwiper">
+                                    <div class="swiper-wrapper">
+            
+                                            <div class="swiper-slide">
+                                                <p><i class="bi bi-star"></i> Ganancias por mes</p>
+                                             </div>
+                                             <div class="swiper-slide">
+                                                 <p><i class="bi bi-star"></i> Marcas</p>
+                                             </div>
+                                             <div class="swiper-slide">
+                                                 <p><i class="bi bi-star"></i> Kits de inicio</p>
+                                             </div>
+                                             <!--div class="swiper-slide">
+                                                 <p><i class="bi bi-star"></i> Bono de equipo</p>
+                                             </div-->
+                                    </div>
+            
                                 </div>
                             </div>
                         </div>
 
-
-
+                        
                         <div class="sect-sliders-tel">
-                            <h2 class="subtitles-page">Ganancias de influencers FARMASI</h2>
+                            <h2 class="subtitles-page mbo-16">Ganancias de influencers FARMASI</h2>
 
                             <div class="cont-contenido">
                                 
@@ -469,8 +554,10 @@
                                               <div class="swiper-slide">
                                                 <div class="ss-div">
                                                     <p class="txt-sldrs-m">75 puntos minimos</p>
-                                                    <p class="txt-sldrs-m">1er Pedido</p>
-                                                    <p class="txt-sldrs-m">Mes 1</p>
+                                                    <div>
+                                                        <p class="txt-sldrs-m">1er Pedido</p>
+                                                        <p class="txt-sldrs-m">Mes 1</p>
+                                                    </div>
 
                                                 </div>
                                                 <!--p class="txt-sldrs-nrm">Ingresa 75 puntos y llevate:</p-->
@@ -485,9 +572,11 @@
                                             <div class="swiper-slide">
                                                     <div class="ss-div">
                                                         <p class="txt-sldrs-m">75 puntos minimos</p>
+                                                    
+                                                    <div>
                                                         <p class="txt-sldrs-m">2do Pedido</p>
                                                         <p class="txt-sldrs-m">Mes 2</p>
-
+                                                    </div>
                                                     </div>
                                             
                                                 <img src="img/pr2.png" alt="">
@@ -500,8 +589,12 @@
                                             <div class="swiper-slide">
                                                 <div class="ss-div">
                                                     <p class="txt-sldrs-m">75 puntos minimos</p>
+
+                                                    <div>
                                                     <p class="txt-sldrs-m">3er Pedido</p>
                                                     <p class="txt-sldrs-m">Mes 3</p>
+                                                    </div>
+
                                                 </div>
                                                
                                                 <img src="img/pr3.png" alt="">
@@ -513,9 +606,11 @@
 
                                               <div class="swiper-slide">
                                                 <div class="ss-div">
-                                                    <p class="txt-sldrs-m" style="background-color: gray;">80 puntos minimos</p>
-                                                    <p class="txt-sldrs-m" style="background-color: gray;">4to Pedido</p>
+                                                    <p class="txt-sldrs-m">80 puntos minimos</p>
+                                                <div>
+                                                    <p class="txt-sldrs-m">4to Pedido</p>
                                                     <p class="txt-sldrs-m">Mes 4</p>
+                                                </div>
 
                                                 </div>
                                                 <!--div class="ss-div2">
@@ -536,52 +631,76 @@
                                 </div>
 
                                 <div class="tab-contentt" id="contentt2">
-                                    <p class="title-slidersss">MARCAS</p>
+                                    <p class="title-slidersss">NUESTRAS MARCAS</p>
 
                                     <div class="bg-slds">
                                         <div class="swiper mySwiper4">
                                             <div class="swiper-wrapper">
                                               <div class="swiper-slide">
                                                 <div class="ss-div-gr">
-                                                    <p class="txt-marca-sld" style="background-color: gray;">DR. C. TUNA</p>
-                                                    <P class="txt-desc-sld" style="background-color: gray;">50% de descuento</P>
+                                                    <p class="txt-marca-sld">DR. C. TUNA</p>
+                                                    <P class="txt-desc-sld">50% de descuento</P>
                                                 </div>
                                                 <div class="ss-div-img-gr">
                                                     <img src="img/marca11.jpg" alt="">
                                                 </div>
                                                 <div class="ss-div-gr-info">
-                                                    Area de texto:
-                                                    <br>
-                                                    <br>
+                                                    <p class="info-sl2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptate quia, doloremque necessitatibus quidem tempore iusto provident laboriosam, ab, cum nisi dignissimos assumenda aliquam? Provident beatae odio nostrum commodi tenetur, fugit laudantium doloremque, inventore aut asperiores cumque rerum dicta alias fuga vero? Rerum necessitatibus a laborum maxime hic saepe quae?</p>
+                                                    <p class="title-tag-sl2">Cada kit Incluye:</p>
+                                                    <div class="div-products-sl2">
+                                                        <p>Paquete 1</p>
+                                                        <p>Paquete 2</p>
+                                                        <p>Paquete 3</p>
+                                                        <p>Paquete 4</p>
+                                                        <p>Paquete 5</p>
+                                                        <p>Paquete 6</p>
+
+                                                    </div>
                                                 </div>
                                               </div>
                                               <div class="swiper-slide">
                                                 <div class="ss-div-gr">
-                                                    <p class="txt-marca-sld" style="background-color: gray;">FARMASI</p>
-                                                    <P class="txt-desc-sld" style="background-color: gray;">50% de descuento</P>
+                                                    <p class="txt-marca-sld">FARMASI</p>
+                                                    <P class="txt-desc-sld">50% de descuento</P>
                                                 </div>
                                                 <div class="ss-div-img-gr">
                                                     <img src="img/marca22.jpg" alt="">
                                                 </div>
                                                 <div class="ss-div-gr-info">
-                                                    Area de texto:
-                                                    <br>
-                                                    <br>
+                                                    <p class="info-sl2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptate quia, doloremque necessitatibus quidem tempore iusto provident laboriosam, ab, cum nisi dignissimos assumenda aliquam? Provident beatae odio nostrum commodi tenetur, fugit laudantium doloremque, inventore aut asperiores cumque rerum dicta alias fuga vero? Rerum necessitatibus a laborum maxime hic saepe quae?</p>
+                                                    <p class="title-tag-sl2">Cada kit Incluye:</p>
+                                                    <div class="div-products-sl2">
+                                                        <p>Paquete 1</p>
+                                                        <p>Paquete 2</p>
+                                                        <p>Paquete 3</p>
+                                                        <p>Paquete 4</p>
+                                                        <p>Paquete 5</p>
+                                                        <p>Paquete 6</p>
+
+                                                    </div>
                                                 </div>
                                               </div>
 
                                               <div class="swiper-slide">
                                                 <div class="ss-div-gr">
-                                                    <p class="txt-marca-sld" style="background-color: gray;">NUTRIPLUS</p>
-                                                    <P class="txt-desc-sld" style="background-color: gray;">50% de descuento</P>
+                                                    <p class="txt-marca-sld" >NUTRIPLUS</p>
+                                                    <P class="txt-desc-sld">50% de descuento</P>
                                                 </div>
                                                 <div class="ss-div-img-gr">
                                                     <img src="img/marca33.jpg" alt="">
                                                 </div>
                                                 <div class="ss-div-gr-info">
-                                                    Area de texto:
-                                                    <br>
-                                                    <br>
+                                                    <p class="info-sl2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptate quia, doloremque necessitatibus quidem tempore iusto provident laboriosam, ab, cum nisi dignissimos assumenda aliquam? Provident beatae odio nostrum commodi tenetur, fugit laudantium doloremque, inventore aut asperiores cumque rerum dicta alias fuga vero? Rerum necessitatibus a laborum maxime hic saepe quae?</p>
+                                                    <p class="title-tag-sl2">Cada kit Incluye:</p>
+                                                    <div class="div-products-sl2">
+                                                        <p>Paquete 1</p>
+                                                        <p>Paquete 2</p>
+                                                        <p>Paquete 3</p>
+                                                        <p>Paquete 4</p>
+                                                        <p>Paquete 5</p>
+                                                        <p>Paquete 6</p>
+
+                                                    </div>
                                                 </div>
                                               </div>
 
@@ -605,33 +724,62 @@
                                                
                                                 <img src="img/kit1.jpg" alt="">
 
-                                                <div class="prec-div">
-                                                <p class="txt-vm">Precio de catalogo:</p>
-                                                <p class="txt-prec" style="background-color: green;">$ 4,639</p>
+                                                <div class="div-3colum">
+                                                    <div class="col-prec">
+                                                        <p class="txt-vm">Precio de catalogo:</p>
+                                                        <p class="txt-prec">$ 4,639</p>
+                                                    </div>
+                                                    <div class="col-prec">
+                                                        <p class="txt-vm">Descuento:</p>
+                                                        <p class="txt-prec">$ 4,000</p>
+                                                    </div>
+                                                    <div class="col-prec">
+                                                        <p class="txt-vm">Ganancia:</p>
+                                                        <p class="txt-prec">$ 400</p>
+                                                    </div>
                                                 </div>
                                               </div>
 
                                               <div class="swiper-slide">
                                                
                                                 <img src="img/kit2.jpg" alt="">
-                                                <div class="prec-div">
-                                                <p class="txt-vm">Precio de catalogo:</p>
-                                                <p class="txt-prec" style="background-color: green;">$ 4,424</p>
+                                                <div class="div-3colum">
+                                                    <div class="col-prec">
+                                                        <p class="txt-vm">Precio de catalogo:</p>
+                                                        <p class="txt-prec">$ 4,639</p>
+                                                    </div>
+                                                    <div class="col-prec">
+                                                        <p class="txt-vm">Descuento:</p>
+                                                        <p class="txt-prec">$ 4,000</p>
+                                                    </div>
+                                                    <div class="col-prec">
+                                                        <p class="txt-vm">Ganancia:</p>
+                                                        <p class="txt-prec">$ 400</p>
+                                                    </div>
                                                 </div>
                                               </div>
 
                                               <div class="swiper-slide">
                                               
                                                 <img src="img/kit3.jpg" alt="">
-                                                <div class="prec-div">
-                                                <p class="txt-vm">Precio de catalogo:</p>
-                                                <p class="txt-prec" style="background-color: green;">$ 4,664</p>
+                                                <div class="div-3colum">
+                                                    <div class="col-prec">
+                                                        <p class="txt-vm">Precio de catalogo:</p>
+                                                        <p class="txt-prec">$ 4,639</p>
+                                                    </div>
+                                                    <div class="col-prec">
+                                                        <p class="txt-vm">Descuento:</p>
+                                                        <p class="txt-prec">$ 4,000</p>
+                                                    </div>
+                                                    <div class="col-prec">
+                                                        <p class="txt-vm">Ganancia:</p>
+                                                        <p class="txt-prec">$ 400</p>
+                                                    </div>
                                                 </div>
                                               </div>
                                               
                                             </div>
-                                            <div class="swiper-button-nextt"><i class="bi bi-chevron-right"></i></div>
-                                            <div class="swiper-button-prevv"><i class="bi bi-chevron-left"></i></div>
+                                           
                                             <div class="swiper-pagination"></div>
                                         </div>
                                     </div>
@@ -639,7 +787,7 @@
                                     
                                 </div>
 
-                                <div class="tab-contentt" id="contentt4">
+                                <!--div class="tab-contentt" id="contentt4">
                                   
                                     <p class="title-slidersss">BONO DE EQUIPO</p>
 
@@ -671,24 +819,25 @@
                                     </div>
 
                                     
-                                </div>
+                                </div-->
 
                             </div>
                             <div class="cont-botones-opc">
-
                                 <div class="tabbs">
-                                    <div class="tabb active-tabb" onclick="showContentt(1)">Ganancias</div>
-                                    <div class="tabb" onclick="showContentt(2)">Marcas</div>
-                                    <div class="tabb" onclick="showContentt(3)">Kits de Regalo</div>
-                                    <div class="tabb" onclick="showContentt(4)">Bonos por equipo</div>
-
+                                  <div>
+                                    <img src="img/icono-desliz.png" width="50px" style="opacity: 0.5;" alt="">
+                                    <div class="tabb active-tabb" onclick="showContentt(1)"><p class="txt-tabs-title"><i class="bi bi-star"></i> Ganancias por mes</p></div>
+                                    <div class="tabb" onclick="showContentt(2)"><p class="txt-tabs-title"> <i class="bi bi-star"></i> Marcas </p></div>
+                                    <div class="tabb" onclick="showContentt(3)"><p class="txt-tabs-title"> <i class="bi bi-star"></i>Kits de Regalo</p></div>
+                                    <!--div class="tabb" onclick="showContentt(4)"><p class="txt-tabs-title"> <i class="bi bi-star"></i> Bonos por equipo</p></div-->
+                                    </div>
                                 </div>
 
                             </div>
                         </div>
 
 
-                        <div class="vent-ben-cont mto-50 mbo-30">
+                        <div class="vent-ben-cont my-50">
                             <h2 class="subtitles-page">Ventajas y beneficios de vender en FARMASI</h2>
 
                             <div class="sldr-vyb-cont">
@@ -696,7 +845,7 @@
                                     <div class="swiper-wrapper">
                                       <div class="swiper-slide">
                                         <div class="box1-titles">
-                                            <img src="img/logo-footer-farmasi.png" alt="">
+                                            <img src="img/registro.jpg" alt="">
                                         </div>
                                         <div class="box2-titles">
                                             <p class="txt-vtjs">Inscripción Gratis</p>
@@ -708,7 +857,7 @@
                                       </div>
                                       <div class="swiper-slide">
                                         <div class="box1-titles">
-                                            <img src="img/logo-footer-farmasi.png" alt="">
+                                            <img src="img/entregas.jpg" alt="">
                                         </div>
                                         <div class="box2-titles">
                                             <p class="txt-vtjs">Entregas a domicilio</p>
@@ -720,7 +869,7 @@
                                       </div>
                                       <div class="swiper-slide">
                                         <div class="box1-titles">
-                                            <img src="img/logo-footer-farmasi.png" alt="">
+                                            <img src="img/director.jpg" alt="">
 
                                         </div>
                                         <div class="box2-titles">
@@ -732,7 +881,7 @@
                                       </div>
                                       <div class="swiper-slide">
                                         <div class="box1-titles">
-                                            <img src="img/logo-footer-farmasi.png" alt="">
+                                            <img src="img/ganancias.jpg" alt="">
 
                                         </div>
                                         <div class="box2-titles">
@@ -744,7 +893,7 @@
                                         </div>
                                       </div>
                                       <div class="swiper-slide"> <div class="box1-titles">
-                                        <img src="img/logo-footer-farmasi.png" alt="">
+                                        <img src="img/regalos.jpg" alt="">
 
                                     </div>
                                     <div class="box2-titles">
@@ -757,7 +906,7 @@
                                 </div>
                                       <div class="swiper-slide">
                                         <div class="box1-titles">
-                                            <img src="img/logo-footer-farmasi.png" alt="">
+                                            <img src="img/envios.jpg" alt="">
 
                                         </div>
                                         <div class="box2-titles">
@@ -770,7 +919,7 @@
                                       </div>
                                       <div class="swiper-slide">
                                         <div class="box1-titles">
-                                            <img src="img/logo-footer-farmasi.png" alt="">
+                                            <img src="img/tienda.jpg" alt="">
 
                                         </div>
                                         <div class="box2-titles">
@@ -788,12 +937,11 @@
                             </div>
                         </div>
 
-
-                        <div class="vent-ben-cont mbo-30">
+                        <div class="vent-ben-cont">
                             <h2 class="subtitles-page">Testimonios</h2>
 
                             <div class="sldr-test-cont">
-                                <div class="swiper mySwiper6">
+                                <div class="swiper mySwiper7">
                                     <div class="swiper-wrapper">
                                       <div class="swiper-slide">
                                         <div class="box1-titles">
@@ -893,7 +1041,7 @@
                             </div>
 
                             <div class="sldr-test-cont2">
-                                <div class="swiper mySwiper6">
+                                <div class="swiper mySwiper7">
                                     <div class="swiper-wrapper">
                                       <div class="swiper-slide">
 
@@ -905,6 +1053,7 @@
                                                     <br>
                                                     Consultora
                                                 </p>
+                                                <br>
                                             </div>
                                             <div class="box-opi">
                                                 <p class="txt-com"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita eos quis optio aliquam laborum quaerat voluptatibus aliquid? Voluptatem officiis modi corporis maiores recusandae magnam, qui doloribus veniam iste iure.</i></p>
@@ -919,6 +1068,7 @@
                                                     <br>
                                                     Consultora
                                                 </p>
+                                                <br>
                                             </div>
                                             <div class="box-opi">
                                                 <p class="txt-com"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita eos quis optio aliquam laborum quaerat voluptatibus aliquid? Voluptatem officiis modi corporis maiores recusandae magnam, qui doloribus veniam iste iure.</i></p>
@@ -933,6 +1083,7 @@
                                                     <br>
                                                     Consultora
                                                 </p>
+                                                <br>
                                             </div>
                                             <div class="box-opi">
                                                 <p class="txt-com"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita eos quis optio aliquam laborum quaerat voluptatibus aliquid? Voluptatem officiis modi corporis maiores recusandae magnam, qui doloribus veniam iste iure.</i></p>
@@ -952,6 +1103,7 @@
                                                     <br>
                                                     Consultora
                                                 </p>
+                                                <br>
                                             </div>
                                             <div class="box-opi">
                                                 <p class="txt-com"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita eos quis optio aliquam laborum quaerat voluptatibus aliquid? Voluptatem officiis modi corporis maiores recusandae magnam, qui doloribus veniam iste iure.</i></p>
@@ -966,6 +1118,7 @@
                                                     <br>
                                                     Consultora
                                                 </p>
+                                                <br>
                                             </div>
                                             <div class="box-opi">
                                                 <p class="txt-com"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita eos quis optio aliquam laborum quaerat voluptatibus aliquid? Voluptatem officiis modi corporis maiores recusandae magnam, qui doloribus veniam iste iure.</i></p>
@@ -980,6 +1133,7 @@
                                                     <br>
                                                     Consultora
                                                 </p>
+                                                <br>
                                             </div>
                                             <div class="box-opi">
                                                 <p class="txt-com"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita eos quis optio aliquam laborum quaerat voluptatibus aliquid? Voluptatem officiis modi corporis maiores recusandae magnam, qui doloribus veniam iste iure.</i></p>
@@ -998,6 +1152,7 @@
                                                     <br>
                                                     Consultora
                                                 </p>
+                                                <br>
                                             </div>
                                             <div class="box-opi">
                                                 <p class="txt-com"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita eos quis optio aliquam laborum quaerat voluptatibus aliquid? Voluptatem officiis modi corporis maiores recusandae magnam, qui doloribus veniam iste iure.</i></p>
@@ -1012,6 +1167,7 @@
                                                     <br>
                                                     Consultora
                                                 </p>
+                                                <br>
                                             </div>
                                             <div class="box-opi">
                                                 <p class="txt-com"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita eos quis optio aliquam laborum quaerat voluptatibus aliquid? Voluptatem officiis modi corporis maiores recusandae magnam, qui doloribus veniam iste iure.</i></p>
@@ -1026,6 +1182,7 @@
                                                     <br>
                                                     Consultora
                                                 </p>
+                                                <br>
                                             </div>
                                             <div class="box-opi">
                                                 <p class="txt-com"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita eos quis optio aliquam laborum quaerat voluptatibus aliquid? Voluptatem officiis modi corporis maiores recusandae magnam, qui doloribus veniam iste iure.</i></p>
@@ -1042,126 +1199,10 @@
                             
                         </div>
 
-                        <!--div class="ben-sec-cont my-50">
-                            <h2 class="subtitles-page">Beneficios secundarios</h2>
-                            <div class="ben-sec-boxes">
-                                <div class="ben-box">
-                                    <div class="icon-contt">
-                                        <i class="bi bi-star-fill icons-ben-sec"></i>
-                                    </div>
-                                    <div>
-                                        <p class="fsz-18 fw-600 clr-black">Inscripción Gratis</p>
-                                    </div>
-                                </div>
-
-                                <div class="ben-box">
-                                    <div class="icon-contt">
-                                        <i class="bi bi-star-fill icons-ben-sec"></i>
-                                    </div>
-                                    <div>
-                                        <p class="fsz-18 fw-600 clr-black">Entregas a Domicilio</p>
-                                    </div>
-                                </div>
-
-                                <div class="ben-box">
-                                    <div class="icon-contt">
-                                        <i class="bi bi-star-fill icons-ben-sec"></i>
-                                    </div>
-                                    <div>
-                                        <p class="fsz-18 fw-600 clr-black">Envío Gratis</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div-->
-
-                     
-
-
-
-                        <!--div class="vyb-cont my-50">
-                            <h2 class="subtitles-page">Ventajas y beneficios de vender en FARMASI</h2>
-                        <div class="vyb-4">
-                            <div class="box-vyb">
-                                <i class="bi bi-star-fill icons-vyb"></i>
-                                <p class="fsz-16 fw-600 clr-pink">Inscripción Gratis (Registro 100% en línea, fácil y rápido)</p>
-                                <p class="fsz-14 fw-300 clr-blackgray">
-                                    Regístrate de manera rápida y sencilla 100% en línea, y forma parte de nuestro equipo en Farmasi sin costo alguno. Solo necesitas unos minutos para completar el proceso y comenzar a disfrutar de todas las ventajas que ofrecemos.
-                                </p>
-                            </div>
-
-                            <div class="box-vyb">
-                                <i class="bi bi-star-fill icons-vyb"></i>
-                                <p class="fsz-16 fw-600 clr-pink">Entregas a Domicilio (Estafeta, DHL, Fedex) (3 a 5 días hábiles)</p>
-                                <p class="fsz-14 fw-300 clr-blackgray">
-                                    Farmasi cuenta con un sistema automatizado de entrega de productos que te ahorrará dificultades con tus pedidos. ¡Ordena desde la app y recibe tu pedido en casa!
-
-                                </p>
-                            </div>
-
-                            <div class="box-vyb">
-                                <i class="bi bi-star-fill icons-vyb"></i>
-                                <p class="fsz-16 fw-600 clr-pink">Ganancias hasta del 50% (Descuento para Influencer de hasta el 50% en líneas de producto)</p>
-                                <p class="fsz-14 fw-300 clr-blackgray">
-                                    Al vender los productos ofrecidos por Farmasi, podrás aprovechar comisiones de hasta la mitad del valor de cada venta. Maximiza tus ingresos y haz crecer tu negocio con excelentes márgenes de ganancia.
-
-                                </p>
-                            </div>
-
-                            <div class="box-vyb">
-                                <i class="bi bi-star-fill icons-vyb"></i>
-                                <p class="fsz-16 fw-600 clr-pink">Regalos en cada pedido (Recibe regalos por cada 75 puntos ó $1,850)</p>
-                                <p class="fsz-14 fw-300 clr-blackgray">
-                                    Con cada pedido que realices superior a $1,850 o 75 puntos, recibirás un regalo exclusivo como muestra de agradecimiento. Disfruta de sorpresas que acompañarán tus productos de belleza y cuidado personal favoritos.
-
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="vyb-4 mto-10">
-                            <div class="box-vyb">
-                                <i class="bi bi-star-fill icons-vyb"></i>
-                                <p class="fsz-16 fw-600 clr-pink">Envío Gratis (en compras de $1,850 o más (75 puntos))</p>
-                                <p class="fsz-14 fw-300 clr-blackgray">
-                                    ¡Aprovecha el envío gratis! En compras superiores a $1,850 o 75 puntos, te ofrecemos el envío sin costo adicional. Disfruta de tus productos de belleza favoritos sin preocuparte por los gastos de envío.
-                                </p>
-                            </div>
-
-                            <div class="box-vyb">
-                                <i class="bi bi-star-fill icons-vyb"></i>
-                                <p class="fsz-16 fw-600 clr-pink">Abre tu tienda en línea ¡Gratis! (Vender a todo México con envíos gratis, genera ganancias por tus ventas en línea)
-                                </p>
-                                <p class="fsz-14 fw-300 clr-blackgray">
-                                    ¡Abre tu tienda en línea sin costo alguno! Vende nuestros productos de belleza y cuidado personal a nivel nacional, con envíos gratis en todas tus ventas. Aprovecha esta oportunidad para generar ingresos y hacer crecer tu negocio desde cualquier parte de México.
-
-                                </p>
-                            </div>
-
-                            <div class="box-vyb">
-                                <i class="bi bi-star-fill icons-vyb"></i>
-                                <p class="fsz-16 fw-600 clr-pink">Desarróllate como director(a) y forma tu equipo (Invita a otras personas a vender productos farmasi y recibe increíbles premios) </p>
-                                <p class="fsz-14 fw-300 clr-blackgray">
-                                    ¡Desarrolla tu liderazgo y forma tu equipo! Invita a otras personas a unirse a Farmasi y comienza a construir tu red. A medida que crezcas como director(a), podrás recibir increíbles premios y recompensas por tu esfuerzo y liderazgo.
-                                </p>
-                            </div>
-                        </div>
-
-                        </div-->
                     </div>
 
                     <div class="tab-content2" id="content2-bottom">
-                        <div class="info-option">
-                            <div class="box-img-opt">
-                                <img src="img/port-natura-ciclo18.png" alt="">
-                            </div>
-
-                            <div class="box-txt-opt">
-                                <h2 class="btn-title2">Emprender</h2>
-                                <p class="btn-info2">
-                                    Regístrate, conoce nuestro modelo de negocio y pertenece a nuestra comunidad de líderes construyendo negocios en red.
-                                </p>
-                                <a class="btn_btn" href="">Registro</a>
-                            </div>
-                        </div>
+                        <p>-----</p>
                     </div>
                 </div>
             </div>
@@ -1179,7 +1220,7 @@
                                 <i class="bi bi-star-fill"></i>
                             </div>
                             <div class="req-txt">
-                                <p class="fsz-16 fw-500 clr-black"> Comprobante de Domicilio</p>
+                                <p class="fsz-16 fw-500 clr-black"> Identificación oficial</p>
                             </div>
                         </div>
                         <div class="box-req-pas-i">
@@ -1192,7 +1233,7 @@
                         </div>
                         <div class="box-req-pas">
                             <p class="fsz-16 fw-400 clr-black">
-                                Importante: Deberás llenar los datos del formulario de este sitio y enviar copia o captura de tu identificación y comprobante a info@vendernaturamexico.com para completar correctamente tu registro.
+                                Importante: Deberás llenar los datos del formulario de este sitio y enviar copia o captura de tu identificación y comprobante a info@farmasidemexico.com para completar correctamente tu registro.
                             </p>
                         </div>
 
@@ -1203,18 +1244,18 @@
                         <div class="box-req-pas">
                             <p class="fsz-16 fw-400 clr-pink">Paso 1</p>
                             <p class="fsz-16 fw-400 clr-black">Envía tus datos y documentos </p>
-                            <p class="fsz-16 fw-300 clr-black">Completa el formulario de este sitio con tus datos y envía tu documentación (INE y comprobante de domicilio al correo electrónico info@vendernaturamexico.com)</p>
+                            <!--p class="fsz-16 fw-300 clr-black">Completa el formulario de este sitio con tus datos y envía tu documentación (INE y comprobante de domicilio al correo electrónico info@vendernaturamexico.com)</p-->
                         </div>
                         <div class="box-req-pas">
                             <p class="fsz-16 fw-400 clr-pink">Paso 2</p>
                             <p class="fsz-16 fw-400 clr-black">Recibe ayuda para realizar tu pedido</p>
-                            <p class="fsz-16 fw-300 clr-black">Una vez registrado(a), realiza tu primer pedido como consultora natura.
-                            </p>
+                            <!--p class="fsz-16 fw-300 clr-black">Una vez registrado(a), realiza tu primer pedido como consultora natura.
+                            </p-->
                         </div>
                         <div class="box-req-pas">
                             <p class="fsz-16 fw-400 clr-pink">Paso 3</p>
-                            <p class="fsz-16 fw-400 clr-black">Vende productos natura y obtén ingresos </p>
-                            <p class="fsz-16 fw-300 clr-black">Ofrece una consultoría de calidad a tus clientes y obtén ingresos cada ciclo de ventas.</p>
+                            <p class="fsz-16 fw-400 clr-black">Vende productos y obtén ingresos </p>
+                            <!--p class="fsz-16 fw-300 clr-black">Ofrece una consultoría de calidad a tus clientes y obtén ingresos cada ciclo de ventas.</p-->
                         </div>
 
                     </div>
@@ -1223,81 +1264,56 @@
             </div>
         </div>
 
-        <!--section class="regis-sec">
-            <div class="regis-main-cont">
-                <h2 class="subtitles-page"></h2>
-                <div class="reg-div2">
-                    <div class="box-reg">
-                        <div>
-
-                        </div>
-                        <div>
-
-                        </div>
-                        <div>
-
-                        </div>
-                    </div>
-                    <div class="box-reg">
-
-                    </div>
-                </div>
-            </div>
-        </section-->
-        <footer>
-            <div class="main-cont-footer">
-                <div class="cont-logo">
-                    <a href="#"><img src="img/logo-footer-farmasi.png" alt="logo farmasi"></a>
-                    <p class="fsz-16 clr-black fw-500">ÚNETE AL MUNDO FARMASI</p>
-                    <p class="fsz-16 clr-pink fw-300"><a href="#">¡Conviértete en un Farmasi influencer!</a></p>
-                </div>
-                <div class="cont-opc">
-                    <p class="fsz-18 clr-black fw-600 mbo-16">POLÍTICAS DE COMPAÑÍA</p>
-                    <p class="fsz-16 clr-black fw-400">Políticas y Procedimentos</p>
-                    <p class="fsz-16 clr-black fw-400">Envío y Devolución</p>
-                    <p class="fsz-16 clr-black fw-400">Terminos de Uso</p>
-                    <p class="fsz-16 clr-black fw-400">Política de Pruebas en Animales</p>
-                    <p class="fsz-16 clr-black fw-400">Política de Privacidad</p>
-                </div>
-                <div class="cont-opc">
-                    <p class="fsz-18 clr-black fw-600 mbo-16">POLÍTICAS DE COMPAÑÍA</p>
-                    <p class="fsz-16 clr-black fw-400">Políticas y Procedimentos</p>
-                    <p class="fsz-16 clr-black fw-400">Envío y Devolución</p>
-                    <p class="fsz-16 clr-black fw-400">Terminos de Uso</p>
-                    <p class="fsz-16 clr-black fw-400">Política de Pruebas en Animales</p>
-                    <p class="fsz-16 clr-black fw-400">Política de Privacidad</p>
-                    <p class="fsz-16 clr-black fw-400">Política de Privacidad</p>
-
-                </div>
-                <div class="cont-opc">
-                    <p class="fsz-18 clr-black fw-600 mbo-16">POLÍTICAS DE COMPAÑÍA</p>
-                    <p class="fsz-16 clr-black fw-400">Políticas y Procedimentos</p>
-                    <p class="fsz-16 clr-black fw-400">Envío y Devolución</p>
-                    <p class="fsz-16 clr-black fw-400">Terminos de Uso</p>
-                   
-                </div>
-            </div>
-            <div class="cont-dr">
-                <p class="fsz-16 clr-blackgray fw-400 txt-centerr">FARMASİ © Reservados todos los derechos.</p>
-            </div>
-        </footer>
     </main>
 
+    <footer>
+        <div class="main-cont-footer">
+            <div class="cont-logo">
+                <a href="#"><img src="img/logo-footer-farmasi.png" alt="logo farmasi"></a>
+                <p class="fsz-16 clr-black fw-500">ÚNETE AL MUNDO FARMASI</p>
+                <p class="fsz-16 clr-pink fw-300"><a href="#">¡Conviértete en un Farmasi influencer!</a></p>
+            </div>
+            <!--div class="cont-opc">
+                <p class="fsz-18 clr-black fw-600 mbo-16">POLÍTICAS DE COMPAÑÍA</p>
+                <p class="fsz-16 clr-black fw-400">Políticas y Procedimentos</p>
+                <p class="fsz-16 clr-black fw-400">Envío y Devolución</p>
+                <p class="fsz-16 clr-black fw-400">Terminos de Uso</p>
+                <p class="fsz-16 clr-black fw-400">Política de Pruebas en Animales</p>
+                <p class="fsz-16 clr-black fw-400">Política de Privacidad</p>
+            </div>
+            <div class="cont-opc">
+                <p class="fsz-18 clr-black fw-600 mbo-16">POLÍTICAS DE COMPAÑÍA</p>
+                <p class="fsz-16 clr-black fw-400">Políticas y Procedimentos</p>
+                <p class="fsz-16 clr-black fw-400">Envío y Devolución</p>
+                <p class="fsz-16 clr-black fw-400">Terminos de Uso</p>
+                <p class="fsz-16 clr-black fw-400">Política de Pruebas en Animales</p>
+                <p class="fsz-16 clr-black fw-400">Política de Privacidad</p>
+                <p class="fsz-16 clr-black fw-400">Política de Privacidad</p>
+
+            </div>
+            <div class="cont-opc">
+                <p class="fsz-18 clr-black fw-600 mbo-16">POLÍTICAS DE COMPAÑÍA</p>
+                <p class="fsz-16 clr-black fw-400">Políticas y Procedimentos</p>
+                <p class="fsz-16 clr-black fw-400">Envío y Devolución</p>
+                <p class="fsz-16 clr-black fw-400">Terminos de Uso</p>
+               
+            </div-->
+        </div>
+        <div class="cont-dr">
+            <p class="fsz-16 clr-blackgray fw-400 txt-centerr">FARMASİ © Reservados todos los derechos.</p>
+        </div>
+    </footer>
 
 
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
 
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
-    <script src="js/src-tabs-new.js"></script>
-    <script src="js/src-tabs-slds.js"></script>
-
-    <script src="js/src-sliders.js"></script>
-    <script src="js/src-sliders-3.js"></script>
     <script src="js/hd.js"></script>
+    <script src="js/src-tabs-new.js"></script>
+    <script src="js/src-sliders.js"></script>
+    <script src="js/src-tabs-slds.js"></script>
 
 
 </body>
