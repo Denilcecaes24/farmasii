@@ -161,7 +161,7 @@
   }
 
   .cont-contenido .tab-contentt .bg-slds .swiper-slide .ss-div-gr-info .info-sl2{
-   font-size: 15px;
+   font-size: 16px;
    font-weight: 300;
    color: #000;
    line-height: 1.2;
@@ -171,11 +171,11 @@
 
   .cont-contenido .tab-contentt .bg-slds .swiper-slide .ss-div-gr-info .title-tag-sl2
 {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     color: #000;
     line-height: 1.2;
-    margin: 0 0 0 0;
+    margin: 0 0 10px 0;
 }
 
 .cont-contenido .tab-contentt .bg-slds .swiper-slide .ss-div-gr-info .div-products-sl2{
@@ -184,9 +184,9 @@
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: start;
 }
 
 .cont-contenido .tab-contentt .bg-slds .swiper-slide .ss-div-gr-info .div-products-sl2 p{
@@ -194,8 +194,8 @@
     font-weight: 400;
     color: #fff;
     line-height: 1.2;
-    margin: 0 0 5px 0;
-    padding: 4px;
+    margin: 0 8px 10px 0;
+    padding: 4px 12px;
     background-color: green;
     border-radius: 10px;
 }

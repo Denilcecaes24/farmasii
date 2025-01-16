@@ -196,7 +196,7 @@
   }
 
   .contenedor-sliders .swiper-slide .bg-slds .swiper-slide .ss-div-gr-info .info-sl2{
-   font-size: 15px;
+   font-size: 16px;
    font-weight: 300;
    color: #000;
    line-height: 1.2;
@@ -206,11 +206,11 @@
 
   .contenedor-sliders .swiper-slide .bg-slds .swiper-slide .ss-div-gr-info .title-tag-sl2
 {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     color: #000;
     line-height: 1.2;
-    margin: 0 0 0 0;
+    margin: 0 0 10px 0;
 }
 
 .contenedor-sliders .swiper-slide .bg-slds .swiper-slide .ss-div-gr-info .div-products-sl2{
@@ -228,8 +228,8 @@
     font-weight: 400;
     color: #fff;
     line-height: 1.2;
-    margin: 0 10px 0 0;
-    padding: 4px;
+    margin: 0 10px 8px 0;
+    padding: 4px 12px;
     background-color: green;
     border-radius: 10px;
 }
@@ -381,7 +381,7 @@
     padding: 8px 8px;
     border-radius: 5px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
   }
 

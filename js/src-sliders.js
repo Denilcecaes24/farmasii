@@ -79,8 +79,8 @@ grabCursor: true,     // Desactiva el cursor de agarre al hacer hover sobre el s
     slidesPerView: 3,
     spaceBetween: 30,
     navigation: {
-      nextEl: ".swiper-button-nextt",
-      prevEl: ".swiper-button-prevv",
+      nextEl: ".swiper-button-nexttt",
+      prevEl: ".swiper-button-prevvv",
     },
 
     breakpoints: {
@@ -108,8 +108,8 @@ grabCursor: true,     // Desactiva el cursor de agarre al hacer hover sobre el s
     slidesPerView: 3,
     spaceBetween: 30,
     navigation: {
-      nextEl: ".swiper-button-nextt",
-      prevEl: ".swiper-button-prevv",
+      nextEl: ".swiper-button-nexttt",
+      prevEl: ".swiper-button-prevvv",
     },
 
     breakpoints: {

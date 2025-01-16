@@ -284,7 +284,7 @@
 
   .tab-btn .box-txt-vender .btn-info{
     display: block;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     padding: 0;
     margin: 0;
@@ -354,7 +354,7 @@
     justify-content: space-between;
     align-items: start;
     overflow: hidden;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+    /*box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);*/
   }
 
   .box-img-opt{
@@ -390,7 +390,7 @@
   }
 
   .box-txt-opt .btn-info2{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     padding: 0;
     margin: 0;
@@ -401,11 +401,11 @@
     color: #fff;
     background-color: black;
     margin: 10px 0 0 0;
-    padding: 5px 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     display: inline-block;
     text-decoration: none;
-font-size: 14px;
+font-size: 17px;
 font-weight: 400;
   }
 
@@ -750,7 +750,7 @@ font-weight: 400;
   }
   
   .tab-btn .box-txt-vender .btn-title{
-    font-size: 16px;
+    font-size: 17px;
    
   }
   
@@ -786,7 +786,6 @@ font-weight: 400;
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
   }
 
 
@@ -817,12 +816,12 @@ font-weight: 400;
   }
 
   .box-txt-opt .btn-info2{
-    font-size: 14px;
+    font-size: 17px;
    
   }
 
   .box-txt-opt .btn_btn{
-    font-size: 15px;
+    font-size: 17px;
   }
 
 

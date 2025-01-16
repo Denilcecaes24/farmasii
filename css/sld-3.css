@@ -1,8 +1,9 @@
 .sldr-vyb-cont .swiper {
     width: 100%;
     height: 100%;
-    padding: 50px 0 20px 0;
+    padding: 50px 15px 20px 15px;
     background-color: ;
+    overflow: hidden; 
   }
 
 .sldr-vyb-cont .swiper-slide {
@@ -15,6 +16,7 @@
     flex-direction: column;
     justify-content: start;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+    overflow: hidden;
   }
 
   .sldr-vyb-cont .swiper-slide .box1-titles{
@@ -52,8 +54,8 @@
 
   .box2-titles .txt-vtjs{
     font-size: 20px;
-    font-weight: 600;
-    color: black;
+    font-weight: 700;
+    color: var(--color-pink-farmasi);
     line-height: 1.2;
   }
 
@@ -65,7 +67,7 @@
   }
 
   .box2-titles .txt-info-v2{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
     color: black;
     line-height: 1.2;
@@ -81,7 +83,7 @@
     */
 
   
-  .sldr-vyb-cont .swiper .swiper-button-prevv {
+  .sldr-vyb-cont .swiper .swiper-button-prevvv {
     position: absolute;
     top: 5%;
     left: 92%;
@@ -102,7 +104,7 @@
 }
 
 
-.sldr-vyb-cont .swiper .swiper-button-nextt {
+.sldr-vyb-cont .swiper .swiper-button-nexttt {
     position: absolute;
     top: 5%;
     right: 0;
@@ -121,14 +123,14 @@
     transform: translateY(-50%);
   }
 
-  .sldr-vyb-cont .swiper .swiper-button-prevv.swiper-button-disabled{
+  .sldr-vyb-cont .swiper .swiper-button-prevvv.swiper-button-disabled{
   background-color: rgba(233, 233, 233, 0.71);     /* Fondo más claro cuando la flecha está inactiva */
   color: #ffcaca;     
   border: 1px solid #ffcaca;           /* Color de texto más tenue */
   cursor: not-allowed;        /* Cambia el cursor para indicar que está deshabilitada */
 }
 
-.sldr-vyb-cont .swiper .swiper-button-nextt.swiper-button-disabled{
+.sldr-vyb-cont .swiper .swiper-button-nexttt.swiper-button-disabled{
   background-color: rgba(233, 233, 233, 0.71);     /* Fondo más claro cuando la flecha está inactiva */
   color: #ffcaca;     
   border: 1px solid #ffcaca;        /* Color de texto más tenue */
@@ -140,9 +142,9 @@
   .sldr-test-cont .swiper {
     width: 100%;
     height: 100%;
-    padding: 50px 0 20px 0;
+    padding: 50px 15px 20px 15px;
     background-color: ;
-  
+    overflow: hidden;
   }
 
 .sldr-test-cont .swiper-slide {
@@ -186,7 +188,7 @@
   }
 
   .sldr-test-cont .swiper-slide .box2-info .txt-com{
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 300;
     color: black;
     line-height: 1.2;
@@ -220,7 +222,7 @@
   }
 
   .txt-info-v2{
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 300;
     color: black;
     line-height: 1.2;
@@ -234,7 +236,7 @@
   }
 
   
-  .sldr-test-cont .swiper .swiper-button-prevv {
+  .sldr-test-cont .swiper .swiper-button-prevvv {
     position: absolute;
     top: 7%;
     left: 92%;
@@ -254,7 +256,7 @@
 }
 
 
-.sldr-test-cont .swiper .swiper-button-nextt {
+.sldr-test-cont .swiper .swiper-button-nexttt {
     position: absolute;
     top: 7%;
     right: 0;
@@ -273,14 +275,14 @@
     transform: translateY(-50%);
   }
 
-  .sldr-test-cont .swiper .swiper-button-prevv.swiper-button-disabled{
+  .sldr-test-cont .swiper .swiper-button-prevvv.swiper-button-disabled{
   background-color: rgba(233, 233, 233, 0.71);     /* Fondo más claro cuando la flecha está inactiva */
   color: #ffcaca;     
   border: 1px solid #ffcaca;           /* Color de texto más tenue */
   cursor: not-allowed;        /* Cambia el cursor para indicar que está deshabilitada */
 }
 
-.sldr-test-cont .swiper .swiper-button-nextt.swiper-button-disabled{
+.sldr-test-cont .swiper .swiper-button-nexttt.swiper-button-disabled{
   background-color: rgba(233, 233, 233, 0.71);     /* Fondo más claro cuando la flecha está inactiva */
   color: #ffcaca;     
   border: 1px solid #ffcaca;        /* Color de texto más tenue */
@@ -374,7 +376,7 @@
 
 
   .sldr-test-cont2 .swiper-slide .box-testt .box-opi{
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 300;
     color: black;
     line-height: 1.2;
@@ -382,9 +384,9 @@
 
 
   
-  .sldr-test-cont2 .swiper .swiper-button-prevv {
+  .sldr-test-cont2 .swiper .swiper-button-prevvv {
     position: absolute;
-    top: 3%;
+    top: 2%;
     left: 75%;
     width: 40px;
     height: 40px;
@@ -402,9 +404,9 @@
 }
 
 
-.sldr-test-cont2 .swiper .swiper-button-nextt {
+.sldr-test-cont2 .swiper .swiper-button-nexttt {
     position: absolute;
-    top: 3%;
+    top: 2%;
     right: 0;
     width: 40px;
     height: 40px;
@@ -421,14 +423,14 @@
     transform: translateY(-50%);
   }
 
-  .sldr-test-cont2 .swiper .swiper-button-prevv.swiper-button-disabled{
+  .sldr-test-cont2 .swiper .swiper-button-prevvv.swiper-button-disabled{
   background-color: rgba(233, 233, 233, 0.71);     /* Fondo más claro cuando la flecha está inactiva */
   color: #ffcaca;     
   border: 1px solid #ffcaca;           /* Color de texto más tenue */
   cursor: not-allowed;        /* Cambia el cursor para indicar que está deshabilitada */
 }
 
-.sldr-test-cont2 .swiper .swiper-button-nextt.swiper-button-disabled{
+.sldr-test-cont2 .swiper .swiper-button-nexttt.swiper-button-disabled{
   background-color: rgba(233, 233, 233, 0.71);     /* Fondo más claro cuando la flecha está inactiva */
   color: #ffcaca;     
   border: 1px solid #ffcaca;        /* Color de texto más tenue */
@@ -439,28 +441,44 @@
 
   @media(max-width: 500px) {
 
-    .sldr-vyb-cont .swiper .swiper-button-prevv {
+    .sldr-vyb-cont .swiper {
+      width: 100%;
+      height: 100%;
+      padding: 50px 0 20px 0;
+      background-color: ;
+      overflow: visible; 
+    }
+
+    .sldr-vyb-cont .swiper .swiper-button-prevvv {
       position: absolute;
       top: 5%;
       left: 75%;
     
   }
 
-  .sldr-vyb-cont .swiper .swiper-button-nextt {
+  .sldr-vyb-cont .swiper .swiper-button-nexttt {
     position: absolute;
     top: 5%;
     right: 0;
   
 }
 
-.sldr-test-cont .swiper .swiper-button-prevv {
+.sldr-test-cont .swiper {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0 20px 0;
+  background-color: ;
+  overflow: visible;
+}
+
+.sldr-test-cont .swiper .swiper-button-prevvv {
   position: absolute;
   top: 6%;
   left: 75%;
  
 }
 
-.sldr-test-cont .swiper .swiper-button-nextt {
+.sldr-test-cont .swiper .swiper-button-nexttt {
   position: absolute;
   top: 6%;
   right: 0;
@@ -470,29 +488,44 @@
 
 
   @media(min-width: 501px) and (max-width: 700px){
+    .sldr-vyb-cont .swiper {
+      width: 100%;
+      height: 100%;
+      padding: 50px 0 20px 0;
+      background-color: ;
+      overflow: visible; 
+    }
 
-    .sldr-vyb-cont .swiper .swiper-button-prevv {
+    .sldr-vyb-cont .swiper .swiper-button-prevvv {
       position: absolute;
       top: 5%;
       left: 82%;
     
   }
 
-  .sldr-vyb-cont .swiper .swiper-button-nextt {
+  .sldr-vyb-cont .swiper .swiper-button-nexttt {
     position: absolute;
     top: 5%;
     right: 0;
   
 }
 
-.sldr-test-cont .swiper .swiper-button-prevv {
+.sldr-test-cont .swiper {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0 20px 0;
+  background-color: ;
+  overflow: visible;
+}
+
+.sldr-test-cont .swiper .swiper-button-prevvv {
   position: absolute;
   top: 6%;
   left: 82%;
  
 }
 
-.sldr-test-cont .swiper .swiper-button-nextt {
+.sldr-test-cont .swiper .swiper-button-nexttt {
   position: absolute;
   top: 6%;
   right: 0;
@@ -503,28 +536,28 @@
 
   @media(min-width: 701px) and (max-width: 900px){
 
-    .sldr-vyb-cont .swiper .swiper-button-prevv {
+    .sldr-vyb-cont .swiper .swiper-button-prevvv {
       position: absolute;
       top: 5%;
       left: 88%;
     
   }
 
-  .sldr-vyb-cont .swiper .swiper-button-nextt {
+  .sldr-vyb-cont .swiper .swiper-button-nexttt {
     position: absolute;
     top: 5%;
     right: 0;
   
 }
 
-.sldr-test-cont .swiper .swiper-button-prevv {
+.sldr-test-cont .swiper .swiper-button-prevvv {
   position: absolute;
   top: 6%;
   left: 88%;
  
 }
 
-.sldr-test-cont .swiper .swiper-button-nextt {
+.sldr-test-cont .swiper .swiper-button-nexttt {
   position: absolute;
   top: 6%;
   right: 0;
@@ -535,28 +568,28 @@
 
   @media(min-width: 901px) and (max-width: 1200px){
 
-    .sldr-vyb-cont .swiper .swiper-button-prevv {
+    .sldr-vyb-cont .swiper .swiper-button-prevvv {
       position: absolute;
       top: 5%;
       left: 90%;
     
   }
 
-  .sldr-vyb-cont .swiper .swiper-button-nextt {
+  .sldr-vyb-cont .swiper .swiper-button-nexttt {
     position: absolute;
     top: 5%;
     right: 0;
   
 }
 
-.sldr-test-cont .swiper .swiper-button-prevv {
+.sldr-test-cont .swiper .swiper-button-prevvv {
   position: absolute;
   top: 6%;
   left: 90%;
  
 }
 
-.sldr-test-cont .swiper .swiper-button-nextt {
+.sldr-test-cont .swiper .swiper-button-nexttt {
   position: absolute;
   top: 6%;
   right: 0;
