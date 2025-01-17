@@ -105,7 +105,7 @@ header .header-container2 a {
     color: white;
     transition: color 0.3s;
     background-color: var(--color-black);
-    font-size: 15px;
+    font-size: 17px;
 
 }
 
@@ -142,7 +142,7 @@ header .header-container1 .menu-opc {
 .header-container1 .menu-opc li{
     display: inline-block;
     color: pink;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
     text-decoration: none;
     position: relative;
@@ -236,7 +236,7 @@ color: orange;
     color: white;
     transition: color 0.3s;
     background-color: var(--color-black);
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .header-container2 .nav-menu-mobile2 .nav-item a {
@@ -307,7 +307,7 @@ opacity: 0.2; /* Menu semi-transparente cuando estÃ¡ fuera de la vista */
     text-align: left;
     display: inline-block;
     color: pink;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
     position: relative;
 }
@@ -316,7 +316,7 @@ opacity: 0.2; /* Menu semi-transparente cuando estÃ¡ fuera de la vista */
     color: #000;
     font-weight: 400;
     transition: 0.3s ease-out;
-    font-size: 15px;
+    font-size: 17px;
     }
     
     .header-container2 .nav-menu-mobile2 .nav-item a:hover {

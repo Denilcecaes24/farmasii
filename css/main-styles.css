@@ -324,6 +324,13 @@
     display: block;
   }
 
+  .sect-tabs-ve3{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: block;
+  }
+
   .sect-sliders-tel{
     display: none;
   }
@@ -783,8 +790,8 @@ font-weight: 400;
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: start;
     align-items: start;
   }
 
@@ -803,7 +810,7 @@ font-weight: 400;
   }
 
   .box-txt-opt{
-    width: 60%;
+    width: 100%;
     height: auto;
     margin: 0 0 0 0;
     padding: 10px;

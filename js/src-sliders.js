@@ -1,13 +1,13 @@
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 20,
-    slidesPerView: window.innerWidth < 700 ? 2 : 3,
+    slidesPerView: window.innerWidth < 700 ? 2 : 4,
     freeMode: true,
     watchSlidesProgress: true,
     
   });
 
   window.addEventListener("resize", function() {
-    swiper.params.slidesPerView = window.innerWidth < 700 ? 2 : 3; // Actualiza el número de imágenes cuando cambie el tamaño de la pantalla
+    swiper.params.slidesPerView = window.innerWidth < 700 ? 2 : 4; // Actualiza el número de imágenes cuando cambie el tamaño de la pantalla
     swiper.update(); // Actualiza Swiper después de cambiar la configuración
   });
 
@@ -130,4 +130,32 @@ grabCursor: true,     // Desactiva el cursor de agarre al hacer hover sobre el s
       spaceBetween: 20, // Espacio entre los slides
   },
 }
+  });
+
+
+
+
+
+  var swiper10 = new Swiper(".mySwiper10", {
+    spaceBetween: 20,
+    slidesPerView: window.innerWidth < 700 ? 2 : 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+    
+  });
+
+  window.addEventListener("resize", function() {
+    swiper10.params.slidesPerView = window.innerWidth < 700 ? 2 : 4; // Actualiza el número de imágenes cuando cambie el tamaño de la pantalla
+    swiper10.update(); // Actualiza Swiper después de cambiar la configuración
+  });
+
+var swiper11 = new Swiper(".mySwiper11", {
+    spaceBetween: 10,
+    thumbs: {
+      swiper: swiper10,
+    },
+  
+    simulateTouch: false,  // Desactiva el deslizamiento táctil (touch)
+    grabCursor: false,     // Desactiva el cursor de agarre al hacer hover sobre el slider
+    touch: false,
   });

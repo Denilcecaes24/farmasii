@@ -121,6 +121,7 @@
     padding: 8px;
     border-radius: 20px;
     background-color: var(--color-pink-farmasi);
+    text-align: center;
 
   }
 
@@ -133,6 +134,7 @@
   padding: 8px;
   border-radius: 20px;
   background-color: var(--color-pink-farmasi);
+  text-align: center;
 
 }
 
@@ -161,7 +163,7 @@
   }
 
   .cont-contenido .tab-contentt .bg-slds .swiper-slide .ss-div-gr-info .info-sl2{
-   font-size: 16px;
+   font-size: 17px;
    font-weight: 300;
    color: #000;
    line-height: 1.2;
@@ -171,9 +173,9 @@
 
   .cont-contenido .tab-contentt .bg-slds .swiper-slide .ss-div-gr-info .title-tag-sl2
 {
-    font-size: 16px;
-    font-weight: 500;
-    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    color: #f95c6d;
     line-height: 1.2;
     margin: 0 0 10px 0;
 }
@@ -196,7 +198,7 @@
     line-height: 1.2;
     margin: 0 8px 10px 0;
     padding: 4px 12px;
-    background-color: green;
+    background-color: rgb(102, 102, 102);
     border-radius: 10px;
 }
 

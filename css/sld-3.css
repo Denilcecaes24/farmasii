@@ -1,7 +1,7 @@
 .sldr-vyb-cont .swiper {
     width: 100%;
     height: 100%;
-    padding: 50px 15px 20px 15px;
+    padding: 60px 15px 20px 15px;
     background-color: ;
   }
 
@@ -141,7 +141,7 @@
   .sldr-test-cont .swiper {
     width: 100%;
     height: 100%;
-    padding: 50px 15px 20px 15px;
+    padding: 60px 15px 20px 15px;
     background-color: ;
   }
 
@@ -291,7 +291,7 @@
    .sldr-test-cont2 .swiper {
     width: 100%;
     height: 100%;
-    padding: 50px 0 20px 0;
+    padding: 50px 10px 20px 10px;
     background-color: ;
   
   }
@@ -324,7 +324,7 @@
     width: 100%;
     height: auto;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -335,17 +335,17 @@
     width: 30%;
     border-radius: 50%;
     padding: 0;
-    margin: 0;
+    margin: 0 0 10px 0;
     object-fit: cover;
   }
 
-  .sldr-test-cont2 .swiper-slide .box1-titles .txt-autor{
-    font-size: 14px;
+  .sldr-test-cont2 .swiper-slide .box-testt .box-names .txt-autor{
+    font-size: 17px;
     font-weight: 300;
     color: black;
     line-height: 1.2;
+    margin: 0 0 10px 0;
     text-align: center;
-    margin: 0 0 16px 0;
   }
 
   .sldr-test-cont2 .swiper-slide .box1-titles .txt-autor strong{
@@ -442,7 +442,7 @@
     .sldr-vyb-cont .swiper {
       width: 100%;
       height: 100%;
-      padding: 50px 0 20px 0;
+      padding: 60px 10px 20px 10px;
       background-color: ;
     }
 
@@ -463,7 +463,7 @@
 .sldr-test-cont .swiper {
   width: 100%;
   height: 100%;
-  padding: 50px 0 20px 0;
+  padding: 50px 10px 20px 10px;
   background-color: ;
 }
 
@@ -487,7 +487,7 @@
     .sldr-vyb-cont .swiper {
       width: 100%;
       height: 100%;
-      padding: 50px 0 20px 0;
+      padding: 60px 10px 20px 10px;
       background-color: ;
     }
 
